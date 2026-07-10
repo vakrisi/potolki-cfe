@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="525f136c-639c-4dcb-97a4-348b3c651ff2">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_sbp_url_service" category="Manager">
+				<xr:TypeId>173c24e5-37eb-4d1d-ae84-2521b54c8134</xr:TypeId>
+				<xr:ValueId>8e6b7aae-698c-47e6-9bc1-cbb6fe6a247f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_sbp_url_service" category="ValueManager">
+				<xr:TypeId>43bf7344-c75b-4519-b938-0d797ba2af9a</xr:TypeId>
+				<xr:ValueId>81a7a839-1a7d-4d22-850f-dbc30e762096</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_sbp_url_service" category="ValueKey">
+				<xr:TypeId>0e275bda-1538-4287-adb7-8b24d837ce59</xr:TypeId>
+				<xr:ValueId>701f8b03-491e-40e4-94ec-ea530ee8561a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_sbp_url_service</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c83ef805-edb5-4244-ac48-95c8102d7c8e</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>1000</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

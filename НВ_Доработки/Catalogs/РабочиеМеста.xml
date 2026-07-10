@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="ab7512ca-540b-483f-8f9e-bbb3c82949b4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РабочиеМеста" category="Object">
+				<xr:TypeId>08c77c97-b14c-46cd-b844-3c169f4f8d7d</xr:TypeId>
+				<xr:ValueId>00fafb40-3479-4605-8c58-52d69c7bfc20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РабочиеМеста" category="Ref">
+				<xr:TypeId>12564450-77f8-4748-afb2-e405259e4058</xr:TypeId>
+				<xr:ValueId>d8cc06ac-b969-406e-a49f-a6369a421c80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РабочиеМеста" category="Selection">
+				<xr:TypeId>3054da5b-b308-4cea-b3d1-e0a9e9bfa162</xr:TypeId>
+				<xr:ValueId>9884e08e-797e-41d5-a07f-bf8c0b07eb5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РабочиеМеста" category="List">
+				<xr:TypeId>a61b13f2-9e00-4a8f-af69-6bc35019c08e</xr:TypeId>
+				<xr:ValueId>e05413d7-2678-4ce4-a63e-d25e6e10e659</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РабочиеМеста" category="Manager">
+				<xr:TypeId>eb463e90-4e7c-4bdf-bd98-25ffba5db7ff</xr:TypeId>
+				<xr:ValueId>a3ec783f-f872-4161-be41-04ee1f75e691</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РабочиеМеста</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>616983be-4432-4929-82ef-c87f51bd3eb4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

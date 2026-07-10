@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаНаименованиеКод" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование код</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа наименование код</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="31"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Владелец" id="7">
+			<DataPath>Объект.Owner</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoEditMode>true</AutoEditMode>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаНомерВалюта" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер, валюта</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа номер валюта</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНомерВалютаРасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<InputField name="НомерСчета" id="10">
+					<DataPath>Объект.НомерСчета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>25</Width>
+					<ContextMenu name="НомерСчетаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="Валюта" id="25">
+					<DataPath>Объект.Валюта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>8</Width>
+					<ContextMenu name="ВалютаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаБанк" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банк, в котором открыт счет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Банк, в котором открыт счет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ГруппаБанкРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<InputField name="Банк" id="39">
+					<DataPath>Объект.Банк</DataPath>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БИК или наименование</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="БанкКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="41"/>
+				</InputField>
+				<UsualGroup name="ГруппаБИК" id="37">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа БИК</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа БИК</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаБИКРасширеннаяПодсказка" id="38"/>
+					<ChildItems>
+						<InputField name="БИК" id="13">
+							<DataPath>Объект.БИК</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
+							<ContextMenu name="БИККонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="БИКРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<LabelDecoration name="НадписьДеятельностьБанкаПрекращена" id="34">
+							<TextColor>style:ПросроченныеДанныеЦвет</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Деятельность банка прекращена</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьДеятельностьБанкаПрекращенаКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="НадписьДеятельностьБанкаПрекращенаРасширеннаяПодсказка" id="36"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<InputField name="КоррСчет" id="16">
+					<DataPath>Объект.КоррСчет</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="КоррСчетКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="КоррСчетРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="НаименованиеБанка" id="19">
+					<DataPath>Объект.НаименованиеБанка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="НаименованиеБанкаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НаименованиеБанкаРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="ГородБанка" id="22">
+					<DataPath>Объект.ГородБанка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Город</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ГородБанкаКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ГородБанкаРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="ИспользоватьИнтернетПлатежи" id="53">
+			<DataPath>Объект.ИспользоватьИнтернетПлатежи</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<ContextMenu name="ИспользоватьИнтернетПлатежиКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="ИспользоватьИнтернетПлатежиРасширеннаяПодсказка" id="55"/>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаИнтернетОплатаТинькофф" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки подключения терминала Интернет оплаты банка "АО Тинькофф"</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа интернет оплата тинькофф</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаИнтернетОплатаТинькоффРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="АдресСервисаИнтернетОплаты" id="50">
+					<DataPath>Объект.АдресСервисаИнтернетОплаты</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес сервиса в Интернет</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="АдресСервисаИнтернетОплатыКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="АдресСервисаИнтернетОплатыРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ИДТерминалаИнтернетОплаты" id="44">
+					<DataPath>Объект.ИДТерминалаИнтернетОплаты</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ID терминала</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИДТерминалаИнтернетОплатыКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ИДТерминалаИнтернетОплатыРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ПарольТерминалаИнтернетОплаты" id="47">
+					<DataPath>Объект.ПарольТерминалаИнтернетОплаты</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пароль терминала</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПарольТерминалаИнтернетОплатыКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ПарольТерминалаИнтернетОплатыРасширеннаяПодсказка" id="49"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<CheckBoxField name="БанкПринимаетПлатежиСБП" id="56">
+			<DataPath>Объект.БанкПринимаетПлатежиСБП</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<ContextMenu name="БанкПринимаетПлатежиСБПКонтекстноеМеню" id="57"/>
+			<ExtendedTooltip name="БанкПринимаетПлатежиСБПРасширеннаяПодсказка" id="58"/>
+		</CheckBoxField>
+		<UsualGroup name="ГруппаСБП" id="59">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СБП</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СБП</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Button</ControlRepresentation>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ГруппаСБПРасширеннаяПодсказка" id="60"/>
+			<ChildItems>
+				<InputField name="НВД_legalId" id="61">
+					<DataPath>Объект.НВД_legalId</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НВД_legalIdКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="НВД_legalIdРасширеннаяПодсказка" id="63"/>
+				</InputField>
+				<InputField name="НВД_merchantId" id="64">
+					<DataPath>Объект.НВД_merchantId</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НВД_merchantIdКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="НВД_merchantIdРасширеннаяПодсказка" id="66"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:CatalogObject.БанковскиеСчета</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
+		<Group>Vertical</Group>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ГруппаНаименованиеКод" id="30">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа наименование код</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа наименование код</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНаименованиеКодРасширеннаяПодсказка" id="31"/>
+				<ChildItems>
+					<InputField name="Наименование" id="4">
+						<DataPath>Объект.Description</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<InputField name="Код" id="1">
+						<DataPath>Объект.Code</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="Владелец" id="7">
+				<DataPath>Объект.Owner</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<AutoEditMode>true</AutoEditMode>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<UsualGroup name="ГруппаНомерВалюта" id="28">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номер, валюта</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа номер валюта</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНомерВалютаРасширеннаяПодсказка" id="29"/>
+				<ChildItems>
+					<InputField name="НомерСчета" id="10">
+						<DataPath>Объект.НомерСчета</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>25</Width>
+						<ContextMenu name="НомерСчетаКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="12"/>
+					</InputField>
+					<InputField name="Валюта" id="25">
+						<DataPath>Объект.Валюта</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>8</Width>
+						<ContextMenu name="ВалютаКонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="27"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаБанк" id="32">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Банк, в котором открыт счет</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Банк, в котором открыт счет</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Representation>WeakSeparation</Representation>
+				<ExtendedTooltip name="ГруппаБанкРасширеннаяПодсказка" id="33"/>
+				<ChildItems>
+					<InputField name="Банк" id="39">
+						<DataPath>Объект.Банк</DataPath>
+						<InputHint>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>БИК или наименование</v8:content>
+							</v8:item>
+						</InputHint>
+						<ContextMenu name="БанкКонтекстноеМеню" id="40"/>
+						<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="41"/>
+					</InputField>
+					<UsualGroup name="ГруппаБИК" id="37">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа БИК</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа БИК</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаБИКРасширеннаяПодсказка" id="38"/>
+						<ChildItems>
+							<InputField name="БИК" id="13">
+								<DataPath>Объект.БИК</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoEditMode>true</AutoEditMode>
+								<ContextMenu name="БИККонтекстноеМеню" id="14"/>
+								<ExtendedTooltip name="БИКРасширеннаяПодсказка" id="15"/>
+							</InputField>
+							<LabelDecoration name="НадписьДеятельностьБанкаПрекращена" id="34">
+								<TextColor>style:ПросроченныеДанныеЦвет</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Деятельность банка прекращена</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="НадписьДеятельностьБанкаПрекращенаКонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="НадписьДеятельностьБанкаПрекращенаРасширеннаяПодсказка" id="36"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<InputField name="КоррСчет" id="16">
+						<DataPath>Объект.КоррСчет</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="КоррСчетКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="КоррСчетРасширеннаяПодсказка" id="18"/>
+					</InputField>
+					<InputField name="НаименованиеБанка" id="19">
+						<DataPath>Объект.НаименованиеБанка</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Наименование</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="НаименованиеБанкаКонтекстноеМеню" id="20"/>
+						<ExtendedTooltip name="НаименованиеБанкаРасширеннаяПодсказка" id="21"/>
+					</InputField>
+					<InputField name="ГородБанка" id="22">
+						<DataPath>Объект.ГородБанка</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Город</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ГородБанкаКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="ГородБанкаРасширеннаяПодсказка" id="24"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<CheckBoxField name="ИспользоватьИнтернетПлатежи" id="53">
+				<DataPath>Объект.ИспользоватьИнтернетПлатежи</DataPath>
+				<TitleLocation>Right</TitleLocation>
+				<ContextMenu name="ИспользоватьИнтернетПлатежиКонтекстноеМеню" id="54"/>
+				<ExtendedTooltip name="ИспользоватьИнтернетПлатежиРасширеннаяПодсказка" id="55"/>
+			</CheckBoxField>
+			<UsualGroup name="ГруппаИнтернетОплатаТинькофф" id="42">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки подключения терминала Интернет оплаты банка "АО Тинькофф"</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа интернет оплата тинькофф</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Representation>StrongSeparation</Representation>
+				<ExtendedTooltip name="ГруппаИнтернетОплатаТинькоффРасширеннаяПодсказка" id="43"/>
+				<ChildItems>
+					<InputField name="АдресСервисаИнтернетОплаты" id="50">
+						<DataPath>Объект.АдресСервисаИнтернетОплаты</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Адрес сервиса в Интернет</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="АдресСервисаИнтернетОплатыКонтекстноеМеню" id="51"/>
+						<ExtendedTooltip name="АдресСервисаИнтернетОплатыРасширеннаяПодсказка" id="52"/>
+					</InputField>
+					<InputField name="ИДТерминалаИнтернетОплаты" id="44">
+						<DataPath>Объект.ИДТерминалаИнтернетОплаты</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ID терминала</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ИДТерминалаИнтернетОплатыКонтекстноеМеню" id="45"/>
+						<ExtendedTooltip name="ИДТерминалаИнтернетОплатыРасширеннаяПодсказка" id="46"/>
+					</InputField>
+					<InputField name="ПарольТерминалаИнтернетОплаты" id="47">
+						<DataPath>Объект.ПарольТерминалаИнтернетОплаты</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пароль терминала</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ПарольТерминалаИнтернетОплатыКонтекстноеМеню" id="48"/>
+						<ExtendedTooltip name="ПарольТерминалаИнтернетОплатыРасширеннаяПодсказка" id="49"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+			<CheckBoxField name="БанкПринимаетПлатежиСБП" id="56">
+				<DataPath>Объект.БанкПринимаетПлатежиСБП</DataPath>
+				<TitleLocation>Right</TitleLocation>
+				<ContextMenu name="БанкПринимаетПлатежиСБПКонтекстноеМеню" id="57"/>
+				<ExtendedTooltip name="БанкПринимаетПлатежиСБПРасширеннаяПодсказка" id="58"/>
+			</CheckBoxField>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:CatalogObject.БанковскиеСчета</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

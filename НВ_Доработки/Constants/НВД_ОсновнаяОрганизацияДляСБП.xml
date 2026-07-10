@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="a65d1cde-29ca-4e47-b6af-46607a7996cc">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_ОсновнаяОрганизацияДляСБП" category="Manager">
+				<xr:TypeId>8f9baf60-7ef4-44ec-8b7e-a5d80c589ed6</xr:TypeId>
+				<xr:ValueId>6868f31d-6f4a-4379-915d-07ad3909d507</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_ОсновнаяОрганизацияДляСБП" category="ValueManager">
+				<xr:TypeId>6d3dd3f9-8249-4e08-9794-e2f7dc7034dd</xr:TypeId>
+				<xr:ValueId>c11de29a-dfef-4413-9d9b-ba1ae9bb45ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_ОсновнаяОрганизацияДляСБП" category="ValueKey">
+				<xr:TypeId>b3b72bd3-a9d8-4ad0-836e-752ee328fdbb</xr:TypeId>
+				<xr:ValueId>ff7b4683-ec5f-4ad1-bde5-430840f25c80</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_ОсновнаяОрганизацияДляСБП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>088d3e10-c661-4389-be6e-a8385dd970fc</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

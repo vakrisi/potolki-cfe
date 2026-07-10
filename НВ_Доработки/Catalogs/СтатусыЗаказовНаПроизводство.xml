@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="c95adebd-7203-457c-8493-40cfc3fa646c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыЗаказовНаПроизводство" category="Object">
+				<xr:TypeId>6e288653-7bf9-46bb-beca-eeca36ca4399</xr:TypeId>
+				<xr:ValueId>34e24623-9997-4bbe-a137-ba3f437644ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыЗаказовНаПроизводство" category="Ref">
+				<xr:TypeId>dbbfae99-c776-4efa-8543-befdf3c5bd9b</xr:TypeId>
+				<xr:ValueId>390df12c-4f5e-49a2-af1a-dec7572d238c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыЗаказовНаПроизводство" category="Selection">
+				<xr:TypeId>1f97586f-65fb-437a-84f3-cbb3fde8ea4d</xr:TypeId>
+				<xr:ValueId>103bfe5b-4f9c-447b-96a9-3211c405be19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыЗаказовНаПроизводство" category="List">
+				<xr:TypeId>7977ff90-2abf-4e1a-9f8b-a3e008609e2a</xr:TypeId>
+				<xr:ValueId>895eae5b-1258-4c15-a23d-924d550477ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыЗаказовНаПроизводство" category="Manager">
+				<xr:TypeId>f7c86da5-fbd2-400d-970f-2b78f9328c54</xr:TypeId>
+				<xr:ValueId>9d394283-d995-44aa-b87d-40862a64b259</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЗаказовНаПроизводство</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7647184f-48f6-4048-b2a8-4f570fb84d0f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

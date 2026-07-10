@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="9c077a3b-076e-4f9b-9415-edca6749ae59">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыБонусныхСистем" category="Ref">
+				<xr:TypeId>4904a32c-1f4d-4a0f-ad20-5196f75d6fbe</xr:TypeId>
+				<xr:ValueId>a6e60d69-589c-4b4a-b4f5-a9ecfd5923ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыБонусныхСистем" category="Manager">
+				<xr:TypeId>5dbea54c-a4b1-469a-afa5-a9eb1fd7939c</xr:TypeId>
+				<xr:ValueId>d530d800-e2db-475c-be7f-fe3369bbb170</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыБонусныхСистем" category="List">
+				<xr:TypeId>97f286bb-f272-4e9a-9a35-89638675a527</xr:TypeId>
+				<xr:ValueId>eadeb07a-90fa-4386-944e-8009b0e822ea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыБонусныхСистем</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>90cd0d90-45f5-4d3f-b6c9-baf217a2bfc2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

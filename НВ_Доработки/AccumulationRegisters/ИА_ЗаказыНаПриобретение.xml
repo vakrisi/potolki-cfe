@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AccumulationRegister uuid="2c9655b8-eccc-4b9a-ba1d-586a48fd0ce5">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ИА_ЗаказыНаПриобретение" category="Record">
+				<xr:TypeId>53d273b4-ef71-4158-84b9-0b1465089e07</xr:TypeId>
+				<xr:ValueId>2410fc38-3a3a-4939-bde7-1ce4f799ba1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ИА_ЗаказыНаПриобретение" category="Manager">
+				<xr:TypeId>cc9226a4-a339-4f3e-8d62-e59b9e50bdf5</xr:TypeId>
+				<xr:ValueId>9fc649ee-6cba-40f5-9796-18c64b87778b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ИА_ЗаказыНаПриобретение" category="Selection">
+				<xr:TypeId>4494038a-8d21-4a5c-b346-28d3d8d12d82</xr:TypeId>
+				<xr:ValueId>634f778b-6a11-4950-8fc9-fd78b79739f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ИА_ЗаказыНаПриобретение" category="List">
+				<xr:TypeId>8e1893a2-8ff1-4b65-bd28-8d65ad11234c</xr:TypeId>
+				<xr:ValueId>78107fbe-5643-408d-b5cb-01dc4dbcd7f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ИА_ЗаказыНаПриобретение" category="RecordSet">
+				<xr:TypeId>a7412b73-f297-4385-ba17-0fad206dbcb5</xr:TypeId>
+				<xr:ValueId>a267961d-0879-45e3-90d4-c3d0236358b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ИА_ЗаказыНаПриобретение" category="RecordKey">
+				<xr:TypeId>0569a8a4-9bcc-4e65-bf58-e8baa91ad8d0</xr:TypeId>
+				<xr:ValueId>108a0bea-5200-44fc-81b3-49567fca0978</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_ЗаказыНаПриобретение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>95234864-66bb-46a3-95d3-f6450757c98a</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

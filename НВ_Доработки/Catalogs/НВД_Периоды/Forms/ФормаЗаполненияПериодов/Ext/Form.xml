@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Родитель" id="1">
+			<DataPath>Родитель</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РодительКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">РодительПриИзменении</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="Периодичность" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Периодичность</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Периодичность</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ExtendedTooltip name="ПериодичностьРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<CheckBoxField name="ЗаполнятьДни" id="6">
+					<DataPath>ЗаполнятьДни</DataPath>
+					<ContextMenu name="ЗаполнятьДниКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="ЗаполнятьДниРасширеннаяПодсказка" id="8"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьНедели" id="9">
+					<DataPath>ЗаполнятьНедели</DataPath>
+					<ContextMenu name="ЗаполнятьНеделиКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="ЗаполнятьНеделиРасширеннаяПодсказка" id="11"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьДекады" id="12">
+					<DataPath>ЗаполнятьДекады</DataPath>
+					<ContextMenu name="ЗаполнятьДекадыКонтекстноеМеню" id="13"/>
+					<ExtendedTooltip name="ЗаполнятьДекадыРасширеннаяПодсказка" id="14"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьМесяцы" id="15">
+					<DataPath>ЗаполнятьМесяцы</DataPath>
+					<ContextMenu name="ЗаполнятьМесяцыКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ЗаполнятьМесяцыРасширеннаяПодсказка" id="17"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьКварталы" id="18">
+					<DataPath>ЗаполнятьКварталы</DataPath>
+					<ContextMenu name="ЗаполнятьКварталыКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="ЗаполнятьКварталыРасширеннаяПодсказка" id="20"/>
+				</CheckBoxField>
+				<CheckBoxField name="ЗаполнятьПолугодия" id="24">
+					<DataPath>ЗаполнятьПолугодия</DataPath>
+					<ContextMenu name="ЗаполнятьПолугодияКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ЗаполнятьПолугодияРасширеннаяПодсказка" id="26"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="СоздатьПериоды" id="27">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СоздатьПериоды</CommandName>
+			<ExtendedTooltip name="СоздатьПериодыРасширеннаяПодсказка" id="28"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ЗаполнятьДекады" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Декады</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьДни" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дни</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьКварталы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кварталы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьМесяцы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяцы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьНедели" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Недели</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаполнятьПолугодия" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полугодия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Родитель" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период - родитель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.НВД_Периоды</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьПериоды" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать периоды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать периоды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьПериоды</Action>
+		</Command>
+	</Commands>
+</Form>

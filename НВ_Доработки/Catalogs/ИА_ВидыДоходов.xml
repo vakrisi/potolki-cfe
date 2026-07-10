@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="7c231d01-cf43-44df-a397-b7aedd9defd8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИА_ВидыДоходов" category="Object">
+				<xr:TypeId>7ff20773-9e50-4b19-aa92-70f3189cb400</xr:TypeId>
+				<xr:ValueId>d65703da-7d11-4094-8b28-c03d88239699</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИА_ВидыДоходов" category="Ref">
+				<xr:TypeId>11a8dd0c-24db-4ca3-8823-de75a9d13991</xr:TypeId>
+				<xr:ValueId>78a2f8ee-c846-40bd-8618-62014bfe08fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИА_ВидыДоходов" category="Selection">
+				<xr:TypeId>ca551547-22e6-4820-abdb-e478f30b9a26</xr:TypeId>
+				<xr:ValueId>c13d31c5-5e01-487f-a788-a81b6ffe2e6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИА_ВидыДоходов" category="List">
+				<xr:TypeId>0d5abe07-31fb-4589-86be-09750208df76</xr:TypeId>
+				<xr:ValueId>3d11cc0b-6135-4439-baf8-428eff7399f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИА_ВидыДоходов" category="Manager">
+				<xr:TypeId>5dc0442c-3e30-4886-957a-48258edc4b6c</xr:TypeId>
+				<xr:ValueId>8b33a231-c674-4449-94bd-374340894152</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_ВидыДоходов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c0d37045-4bb6-4251-9f22-4c3e8db71590</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

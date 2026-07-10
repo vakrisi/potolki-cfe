@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="9b02782f-7c7d-425a-afd2-2825f298d09b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиПредварительногоРасчетаЗаказаВРознице" category="Object">
+				<xr:TypeId>92620607-0cc9-4a6b-86ae-0af83adcc783</xr:TypeId>
+				<xr:ValueId>7a14062e-e8cb-4db4-b221-871f34808598</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиПредварительногоРасчетаЗаказаВРознице" category="Ref">
+				<xr:TypeId>03f3981d-60fd-4950-a470-480120a5a57e</xr:TypeId>
+				<xr:ValueId>dd60786b-f2cf-4f71-9c79-08f2157a002f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиПредварительногоРасчетаЗаказаВРознице" category="Selection">
+				<xr:TypeId>ec3b500b-4bc9-4ef0-aad6-0ff923946266</xr:TypeId>
+				<xr:ValueId>43af2ab3-3afa-4392-a7ee-e6369b34cae9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиПредварительногоРасчетаЗаказаВРознице" category="List">
+				<xr:TypeId>fbb7b7c7-970c-413b-bf9d-1a7311066325</xr:TypeId>
+				<xr:ValueId>04c01252-d8e5-4229-9d43-71b63e388ec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиПредварительногоРасчетаЗаказаВРознице" category="Manager">
+				<xr:TypeId>30bc27ba-d849-4689-afac-d4482b5df493</xr:TypeId>
+				<xr:ValueId>bbf4a2a4-86bc-4549-b59f-72f2931d06c2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиПредварительногоРасчетаЗаказаВРознице</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bb2f08e1-0498-46af-942d-71436da74298</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

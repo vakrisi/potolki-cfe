@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="333156fa-7a61-4b1a-8682-5d1881080251">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыНачислений" category="Object">
+				<xr:TypeId>ed3b3bd7-4b15-4005-a170-9cb8630c2656</xr:TypeId>
+				<xr:ValueId>6a3e2d76-7936-4da8-b2a4-4d5a835f7894</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыНачислений" category="Ref">
+				<xr:TypeId>ce1f153b-b604-4563-bfea-6ac9b74ef8f2</xr:TypeId>
+				<xr:ValueId>a4c73dad-c752-45db-a0fd-375f6fbc237f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыНачислений" category="Selection">
+				<xr:TypeId>816c3aa4-cd99-4b6d-932d-5cbe3e7c09f5</xr:TypeId>
+				<xr:ValueId>618cfbff-3710-45fb-891b-b7b2beda2375</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыНачислений" category="List">
+				<xr:TypeId>ff081acc-f85f-4d70-a966-55f5c4af1396</xr:TypeId>
+				<xr:ValueId>18d0c61a-614f-4438-958e-ffcde518534e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыНачислений" category="Manager">
+				<xr:TypeId>42a54df3-c90c-48b1-8241-1b6c77a2d6eb</xr:TypeId>
+				<xr:ValueId>b1ef1cd7-b54d-44c0-9ce3-e13dd4b1f507</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыНачислений</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5891e873-2c98-498a-a074-b4991389c809</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

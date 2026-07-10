@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="c781b3cf-8999-4a86-927f-eabd236b7d99">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИА_ЗаказНаПриобретение" category="Object">
+				<xr:TypeId>d7140948-0d85-4270-8081-8be78a4a4e22</xr:TypeId>
+				<xr:ValueId>1e92bbe5-1830-4f0b-92b6-931acafcce8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИА_ЗаказНаПриобретение" category="Ref">
+				<xr:TypeId>f047bbbf-b7bc-4474-8598-cc95c9d2d5b9</xr:TypeId>
+				<xr:ValueId>8d6f860b-0617-4485-8bed-e3e149637ed4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИА_ЗаказНаПриобретение" category="Selection">
+				<xr:TypeId>c076c610-6e42-4fe3-afea-8fcca6b8a88c</xr:TypeId>
+				<xr:ValueId>a44008ff-ac08-4c82-9f74-9178e8cd2462</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИА_ЗаказНаПриобретение" category="List">
+				<xr:TypeId>ec41df6f-b8e6-4618-a689-f0eca2494c3a</xr:TypeId>
+				<xr:ValueId>270d9ac4-3bf4-43b5-bb47-3ad93223b55a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИА_ЗаказНаПриобретение" category="Manager">
+				<xr:TypeId>c5afee62-c245-45f2-8076-b665e03a4fec</xr:TypeId>
+				<xr:ValueId>7a9cd6b1-3911-46e7-bb7d-31a39f0d7368</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_ЗаказНаПриобретение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5fce4429-2abd-4e31-a875-df562886a01b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

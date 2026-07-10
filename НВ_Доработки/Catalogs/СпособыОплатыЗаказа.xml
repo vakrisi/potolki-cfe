@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="e560866b-4c3d-4458-9fc4-87853401f9f5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОплатыЗаказа" category="Object">
+				<xr:TypeId>cc95ca66-30e9-41ca-9d56-034a9a2be76f</xr:TypeId>
+				<xr:ValueId>3daf4fe8-d5fa-4b3d-9027-3f6afed98451</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОплатыЗаказа" category="Ref">
+				<xr:TypeId>20d126e2-ae78-42fa-9ce0-2f21a49ea826</xr:TypeId>
+				<xr:ValueId>99c37915-aa48-4910-bf54-16284adc07d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОплатыЗаказа" category="Selection">
+				<xr:TypeId>dcb72aa6-92d6-4d6b-9214-ba4c230742a5</xr:TypeId>
+				<xr:ValueId>0c591491-33f6-4f53-b938-c575a0996e9b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОплатыЗаказа" category="List">
+				<xr:TypeId>839c9b55-9b3f-4093-879d-665e8f95bbd1</xr:TypeId>
+				<xr:ValueId>c156c16b-b232-4355-90e5-be3876e18820</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОплатыЗаказа" category="Manager">
+				<xr:TypeId>3522584e-d0fb-4f7e-bbb1-4f19da04070e</xr:TypeId>
+				<xr:ValueId>07bccf47-e0e9-4902-9c4d-e119f48043c8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыОплатыЗаказа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>84a5ce64-1242-423f-b966-1d24469550d8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

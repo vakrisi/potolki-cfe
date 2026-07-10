@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="44a84d36-b2d0-4b36-b812-a58037c5367a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыЗаявокНаДоставку" category="Object">
+				<xr:TypeId>d640a4c6-73d9-4379-aaf8-18791071b432</xr:TypeId>
+				<xr:ValueId>8115e643-996f-4e08-90cc-c1f668ed4a0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыЗаявокНаДоставку" category="Ref">
+				<xr:TypeId>31b92769-e7ec-4906-96c6-354aeb4d2a4b</xr:TypeId>
+				<xr:ValueId>fdf5cd43-297f-4c3f-8a74-0f267414c988</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыЗаявокНаДоставку" category="Selection">
+				<xr:TypeId>244b0509-c22b-475e-8110-78db9fefd349</xr:TypeId>
+				<xr:ValueId>9c33155d-979a-4343-8c9f-a78271a08ebe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыЗаявокНаДоставку" category="List">
+				<xr:TypeId>e32a693b-781f-4692-9c69-653cfa1feaa3</xr:TypeId>
+				<xr:ValueId>edabc0a5-cc58-4139-acbe-2fae46e74b8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыЗаявокНаДоставку" category="Manager">
+				<xr:TypeId>3382514d-f4c6-4c1f-9a90-99e3f41fc73b</xr:TypeId>
+				<xr:ValueId>f6249905-ce1a-4b53-9fe3-ece2e4ab6fb3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЗаявокНаДоставку</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5bc42da8-30aa-4302-9c9f-b7590c4308ca</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

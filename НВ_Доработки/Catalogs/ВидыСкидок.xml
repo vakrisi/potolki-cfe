@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="bb7aaa6b-e104-48c0-aff5-f8729fddd3e2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыСкидок" category="Object">
+				<xr:TypeId>3fcc68f9-1b4c-4aac-b945-b818e1d77f0a</xr:TypeId>
+				<xr:ValueId>bc5e1a00-57b3-4675-b5d3-270f1df8bf2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыСкидок" category="Ref">
+				<xr:TypeId>680ffa87-5b8e-4d34-aec8-5b52720919f6</xr:TypeId>
+				<xr:ValueId>7eac2765-01c9-4e6b-b8cf-34644a0b52a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыСкидок" category="Selection">
+				<xr:TypeId>a18b6209-7420-45bc-bbd6-37e3afad1737</xr:TypeId>
+				<xr:ValueId>2d40c5e9-39a2-40bf-91b7-f9f0673a508d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыСкидок" category="List">
+				<xr:TypeId>21321331-f885-4814-9b3d-ccbeeebc4e2e</xr:TypeId>
+				<xr:ValueId>d1746b6d-8b8a-4e57-b8ca-8aeecb2e553b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыСкидок" category="Manager">
+				<xr:TypeId>b93575c9-af72-42f4-af11-d36cddaba171</xr:TypeId>
+				<xr:ValueId>e8a34947-d1c9-4525-a00f-995754b1da77</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыСкидок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e919426f-6bc8-4d35-afc9-f9a03c195b86</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

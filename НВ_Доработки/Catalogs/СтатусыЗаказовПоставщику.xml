@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="ed398123-359a-4972-820e-2a36eb39d796">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыЗаказовПоставщику" category="Object">
+				<xr:TypeId>9445c6b5-7c4f-40ff-9a7b-fe79c395b2c2</xr:TypeId>
+				<xr:ValueId>0a646d7d-5058-406a-af10-0297d00278b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыЗаказовПоставщику" category="Ref">
+				<xr:TypeId>a337c0d7-86e8-4319-8349-a97428a34c9f</xr:TypeId>
+				<xr:ValueId>546cc5fc-892e-4aad-ab37-e4f7339f86d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыЗаказовПоставщику" category="Selection">
+				<xr:TypeId>09371a8c-3a4e-4304-8752-15a5b123d90a</xr:TypeId>
+				<xr:ValueId>8f4cf1ea-f48d-4d08-9848-e4a3cbec4660</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыЗаказовПоставщику" category="List">
+				<xr:TypeId>2b90fc49-427a-428b-91ee-b856e0abfb84</xr:TypeId>
+				<xr:ValueId>e790222f-5b95-46bc-9f95-d77338bf6d15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыЗаказовПоставщику" category="Manager">
+				<xr:TypeId>10af54cf-cd1d-44cf-9350-b9548f64204c</xr:TypeId>
+				<xr:ValueId>b3fd27ac-f075-4ef5-b8de-9d9cfc32c757</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыЗаказовПоставщику</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e058e831-b12a-4b76-ba99-6c31cf6ba269</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

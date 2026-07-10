@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="7e99cf7e-5b67-4eb2-a1e1-d4424ecc460f">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_legalId" category="Manager">
+				<xr:TypeId>2240bf0d-aaf4-454c-8278-70343b6c025c</xr:TypeId>
+				<xr:ValueId>cc03d103-025e-468b-b3e2-82f0e1217682</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_legalId" category="ValueManager">
+				<xr:TypeId>2257b320-f2cf-4d1e-80b7-6060babda5f6</xr:TypeId>
+				<xr:ValueId>a0976c90-f7dd-4f7d-a96e-829eb7bf0783</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_legalId" category="ValueKey">
+				<xr:TypeId>fb0082cc-39d9-4b87-a6fd-5f92194fe96e</xr:TypeId>
+				<xr:ValueId>7d929366-8f17-4948-8a03-87ed19910766</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_legalId</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>56d7f932-1809-4b12-a5ee-22c5d30e6c32</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

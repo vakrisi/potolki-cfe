@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="26de6901-33c8-4a22-abe8-a96f4d0a532b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РекламныеИсточники" category="Object">
+				<xr:TypeId>dbe99a23-3db2-45e7-a54c-1cfdfbdf2790</xr:TypeId>
+				<xr:ValueId>01825765-3daa-4e42-abc9-41eeb9be5e63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РекламныеИсточники" category="Ref">
+				<xr:TypeId>e31d18d4-c3ad-4362-b96b-63cce27b4ed1</xr:TypeId>
+				<xr:ValueId>36762abd-90ee-4779-94ed-6fa974181740</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РекламныеИсточники" category="Selection">
+				<xr:TypeId>b6de02ee-dca4-4906-bd92-0ad908eb39cd</xr:TypeId>
+				<xr:ValueId>e47eeb4c-441a-48c9-86ba-69dc88e64dbe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РекламныеИсточники" category="List">
+				<xr:TypeId>b5825ede-0370-4092-8737-2b9ec5dd44ce</xr:TypeId>
+				<xr:ValueId>cd736701-899e-4054-8918-41bee47e39e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РекламныеИсточники" category="Manager">
+				<xr:TypeId>066e37fd-8c3a-4ef3-aae3-4106bbb419ea</xr:TypeId>
+				<xr:ValueId>a50aeb36-071d-4b81-9359-728c0b55708d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РекламныеИсточники</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aab7c03b-0835-4b61-bb77-12014d63ab1b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

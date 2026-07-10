@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="3f926560-31d7-4dac-8799-486cdf089d75">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.МеткиКонтрагентов" category="Object">
+				<xr:TypeId>79088b00-0bc1-4c76-afa9-7c120875d009</xr:TypeId>
+				<xr:ValueId>570e7a79-a7a3-4a10-9b07-dc2ac3f04456</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.МеткиКонтрагентов" category="Ref">
+				<xr:TypeId>6fcd907d-fc17-4022-aafb-fe1e960584dc</xr:TypeId>
+				<xr:ValueId>9ef3e770-184a-4520-b413-85b979786418</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.МеткиКонтрагентов" category="Selection">
+				<xr:TypeId>9ba9f0ee-c352-41b2-83be-2fd4bd707777</xr:TypeId>
+				<xr:ValueId>4f7fffc8-4129-492a-ae17-bee7ddcf33e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.МеткиКонтрагентов" category="List">
+				<xr:TypeId>9c07d40a-4ec5-4a21-8a48-eb2be876aa50</xr:TypeId>
+				<xr:ValueId>a3e76d51-9b33-4570-8990-4732481d5d5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.МеткиКонтрагентов" category="Manager">
+				<xr:TypeId>7a98f343-0cab-4539-a9b8-6e077cd0c6f6</xr:TypeId>
+				<xr:ValueId>04367510-8a07-47cc-aa99-bba9aeb6c5fc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МеткиКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c853c19-312d-49ba-87cd-5dec9862683e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

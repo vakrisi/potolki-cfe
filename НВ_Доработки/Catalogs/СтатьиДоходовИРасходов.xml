@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="da4b7baa-0838-4d02-804d-12a5fb03182d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиДоходовИРасходов" category="Object">
+				<xr:TypeId>58e6f347-00af-4322-b8a1-eb29d444eac8</xr:TypeId>
+				<xr:ValueId>d028b328-d811-4d23-aea9-aa21a763818b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиДоходовИРасходов" category="Ref">
+				<xr:TypeId>927b8e20-0da0-4710-b68c-02c888134296</xr:TypeId>
+				<xr:ValueId>f102730d-ac0d-42ff-8634-ad7cb6778cd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиДоходовИРасходов" category="Selection">
+				<xr:TypeId>2eee503a-716e-410c-8cd6-080946df1d9a</xr:TypeId>
+				<xr:ValueId>e59a8f92-f184-4da9-a52a-e221a7a3d160</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиДоходовИРасходов" category="List">
+				<xr:TypeId>5fe7873e-d177-445c-a25f-656bd6ce6df3</xr:TypeId>
+				<xr:ValueId>71b06398-3836-44a3-90fb-ddb8509589b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиДоходовИРасходов" category="Manager">
+				<xr:TypeId>4b11896a-95f9-4b4b-b844-4280fc3c679f</xr:TypeId>
+				<xr:ValueId>aacd9442-fc76-46be-8866-81a5fdb5bc02</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиДоходовИРасходов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>fb270aeb-3890-42f5-8372-95886de7d4c4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

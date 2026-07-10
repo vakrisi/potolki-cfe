@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="cd45a5ff-9f2c-4cc6-811b-93923a94467a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПроизводственныеОперации" category="Object">
+				<xr:TypeId>a2d73862-4e28-4c9f-bc09-5c8e1a68e2a3</xr:TypeId>
+				<xr:ValueId>2c705819-3975-41d7-8700-a3360f18ea03</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПроизводственныеОперации" category="Ref">
+				<xr:TypeId>e1843175-233d-4c35-a36f-ea8aed3a91a2</xr:TypeId>
+				<xr:ValueId>c2188a5d-fea2-4312-9672-b8672f7a955f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПроизводственныеОперации" category="Selection">
+				<xr:TypeId>ca4a6989-e6ed-4347-a5a7-3ba8bd82cf17</xr:TypeId>
+				<xr:ValueId>5203557a-dc5d-48b5-a5ea-1e78bf1c6e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПроизводственныеОперации" category="List">
+				<xr:TypeId>da43ca5e-4c5b-437d-8d56-9c3dcc8901f3</xr:TypeId>
+				<xr:ValueId>31bed431-9539-416a-a678-18a6b41ecd2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПроизводственныеОперации" category="Manager">
+				<xr:TypeId>8f1d8fb4-b213-488d-a786-dc89181c7f19</xr:TypeId>
+				<xr:ValueId>0391af27-f907-4670-a4f8-227547e6bb65</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроизводственныеОперации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5de62905-578a-4a4b-89b3-e94a9e9d0e5e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

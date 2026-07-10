@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="b363790f-d073-4fd2-8ee4-8869e8510eb1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСистемНалогообложенияККТ" category="Ref">
+				<xr:TypeId>5b7c8a0c-4dec-4b63-92d2-a4eb82ee731a</xr:TypeId>
+				<xr:ValueId>eb67d927-035d-4c16-9fda-f5371caba064</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСистемНалогообложенияККТ" category="Manager">
+				<xr:TypeId>ae83d807-9de8-4097-80a6-9d46938c4d5f</xr:TypeId>
+				<xr:ValueId>6e62738c-47e5-47e6-b5a9-1ba127e9f647</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСистемНалогообложенияККТ" category="List">
+				<xr:TypeId>f6dff70e-7d20-4aa4-bd88-53debb574c0e</xr:TypeId>
+				<xr:ValueId>6b582532-7fe5-406b-863e-5809c622840b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСистемНалогообложенияККТ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>96e937f6-0a35-4b8d-9898-08d86199ff31</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

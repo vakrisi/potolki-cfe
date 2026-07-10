@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="3902deb9-d482-4c65-b844-45f91c85a46d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТочкиПродаж" category="Object">
+				<xr:TypeId>c822bab4-b424-4194-b179-934af5c2fdbc</xr:TypeId>
+				<xr:ValueId>60ca658b-fb39-4cd5-a7dc-ac96ce0a5512</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТочкиПродаж" category="Ref">
+				<xr:TypeId>fa0548ae-f79a-4ef5-941c-d799b2e76eb5</xr:TypeId>
+				<xr:ValueId>68f8499a-c5c5-49ed-89df-09291512fbdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТочкиПродаж" category="Selection">
+				<xr:TypeId>2dd3c284-7b10-47bb-89ee-2212931b00ce</xr:TypeId>
+				<xr:ValueId>5a3b475e-3f1e-43f3-bc74-ca637e0cfdfe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТочкиПродаж" category="List">
+				<xr:TypeId>75e91cd8-669b-4fca-9dfa-3006a78faaa7</xr:TypeId>
+				<xr:ValueId>4bc07ee7-327b-4697-8582-4b8fa4b6a419</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТочкиПродаж" category="Manager">
+				<xr:TypeId>f8113055-f089-4307-95b3-d81d288c10cf</xr:TypeId>
+				<xr:ValueId>8c5a4a30-94fb-478f-b07b-9232e38674ef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТочкиПродаж</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cfa88aed-8e5c-437d-bcbc-e401da28b04c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

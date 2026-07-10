@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="b10ec3c2-7e25-4d87-8070-bb5ebadc26d3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЦветФактуры" category="Object">
+				<xr:TypeId>7afd16bf-5e4e-452e-bdcf-19680596c244</xr:TypeId>
+				<xr:ValueId>093abceb-0fd7-49d1-8c13-409315e249c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЦветФактуры" category="Ref">
+				<xr:TypeId>753dda95-27dd-4521-ac36-08af0b3578d3</xr:TypeId>
+				<xr:ValueId>5a3d6f42-bb2e-42ae-a672-0a5232a1516e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЦветФактуры" category="Selection">
+				<xr:TypeId>3eed696f-4f56-41af-96f7-92d0198b538a</xr:TypeId>
+				<xr:ValueId>b4049b62-064a-4462-84b9-1dd130bc19e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЦветФактуры" category="List">
+				<xr:TypeId>b5834c3c-63da-4ec3-a0a6-9fb01dfb19dd</xr:TypeId>
+				<xr:ValueId>72776f43-d5ba-4eab-82bb-4d8e65b363d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЦветФактуры" category="Manager">
+				<xr:TypeId>97a62066-e384-4f49-8f69-eb431c576862</xr:TypeId>
+				<xr:ValueId>2d3e3018-d063-45a3-9e57-19831d50bf99</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЦветФактуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3c85a0c1-af91-4e07-80a6-681e4f7e328c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

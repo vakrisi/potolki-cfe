@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="dc8c2339-05be-4c65-bf6d-f76b213e1d00">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КонтактныеЛица" category="Object">
+				<xr:TypeId>896a27ee-0fc7-4b62-8587-7a8fe206c1c9</xr:TypeId>
+				<xr:ValueId>6b0ab48c-a660-4c6a-b4d4-a4b5b0cac5cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КонтактныеЛица" category="Ref">
+				<xr:TypeId>36439262-fa90-48d3-b926-12a14df44180</xr:TypeId>
+				<xr:ValueId>38bd6387-9384-497d-92a0-4710643d6598</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КонтактныеЛица" category="Selection">
+				<xr:TypeId>8f1d9bba-fde0-4275-bf76-06ca9fb27ada</xr:TypeId>
+				<xr:ValueId>07ede630-39fe-4120-a653-b6f6566c699d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КонтактныеЛица" category="List">
+				<xr:TypeId>20cc1ecc-ed52-4612-a47f-8a8763e2eaab</xr:TypeId>
+				<xr:ValueId>c31a18c0-30fe-4d8f-b2f5-46ec64f6bc22</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КонтактныеЛица" category="Manager">
+				<xr:TypeId>df0fe2e8-b6c1-45bf-8bf0-124f4bdc03df</xr:TypeId>
+				<xr:ValueId>3978eea2-7dae-44e1-9b41-a04098889cd1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КонтактныеЛица</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3ac31668-8de2-47ce-8faa-2c95467ed065</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="24a4985e-e40c-4f07-ba1c-8dd0865f1bb7">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.КонтактныеЛица.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>2ef2e8eb-b10c-4129-8a08-6b6cb3a663c1</xr:TypeId>
+						<xr:ValueId>5c31446f-7b4f-471f-b637-94849e23a826</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.КонтактныеЛица.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>fd966f29-badb-432e-9dfa-2751fb8b7a78</xr:TypeId>
+						<xr:ValueId>03296b91-9074-4ba6-9f17-4c8b706521c5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КонтактнаяИнформация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af8ed24e-25d6-4679-a465-1dadfd3b5a4b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

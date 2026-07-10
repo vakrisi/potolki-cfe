@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="6e577660-86c9-465b-898d-7c3a091e5b28">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Фактура" category="Object">
+				<xr:TypeId>e4b8e321-41f2-492d-a881-080d6071cdcb</xr:TypeId>
+				<xr:ValueId>f392cce5-5777-4159-931e-4ef84f620f65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Фактура" category="Ref">
+				<xr:TypeId>b533dfcc-79a2-451f-b93d-78b6eecf9e2a</xr:TypeId>
+				<xr:ValueId>70d93ba1-0b07-4182-ae71-2363fedb3d0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Фактура" category="Selection">
+				<xr:TypeId>4f37d374-dea2-41b2-9c51-95e1a8f4c41d</xr:TypeId>
+				<xr:ValueId>673e069a-555b-4645-9082-ec70f7442364</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Фактура" category="List">
+				<xr:TypeId>9de01e3d-ef53-43d5-a2d2-bb4ee9150210</xr:TypeId>
+				<xr:ValueId>4c73406e-051c-41ed-9b47-73ee67570f58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Фактура" category="Manager">
+				<xr:TypeId>0a2c65a8-f132-4cd1-84fb-a68ea7bfcff3</xr:TypeId>
+				<xr:ValueId>165d712f-9de2-4664-a6f7-b186209a5047</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Фактура</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>da851382-bf81-45b5-958b-390df873b345</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="b829449f-b907-448a-8a2f-7078b40e4c0e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УДАЛИТЬ_НастройкиМонитораОпт" category="Object">
+				<xr:TypeId>b5b8b4ef-b684-4d6f-bee5-4b33b392b017</xr:TypeId>
+				<xr:ValueId>1b076ee1-396f-4871-85bf-e4152c5e5ab4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УДАЛИТЬ_НастройкиМонитораОпт" category="Ref">
+				<xr:TypeId>61efb67c-061f-4926-81da-8cdd9529d80c</xr:TypeId>
+				<xr:ValueId>4793c49f-df65-4112-999a-bbc98124f554</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УДАЛИТЬ_НастройкиМонитораОпт" category="Selection">
+				<xr:TypeId>a59481e4-3a44-4f04-8a28-f0ad4aea302e</xr:TypeId>
+				<xr:ValueId>e3907ad1-473b-4000-b3a9-7b8491a21f86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УДАЛИТЬ_НастройкиМонитораОпт" category="List">
+				<xr:TypeId>c4add06f-46ef-4a8a-8446-e0ecab95caed</xr:TypeId>
+				<xr:ValueId>eee3a155-974c-4f8e-b8d3-4f50f729e353</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УДАЛИТЬ_НастройкиМонитораОпт" category="Manager">
+				<xr:TypeId>c33afb6b-4533-43b9-9fc0-80878b8e3250</xr:TypeId>
+				<xr:ValueId>591fe463-adbf-451f-80cd-6afa3e9425ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УДАЛИТЬ_НастройкиМонитораОпт</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>16403a36-2106-4ff5-95c0-cf037ef67f04</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

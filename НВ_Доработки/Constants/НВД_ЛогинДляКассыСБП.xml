@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="e6497c26-e293-4d2e-9de3-31e335452022">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_ЛогинДляКассыСБП" category="Manager">
+				<xr:TypeId>7cd8769b-5777-4ab6-8d09-efb79fdffc03</xr:TypeId>
+				<xr:ValueId>7b93860d-87b4-400b-8b19-f18b3495b7ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_ЛогинДляКассыСБП" category="ValueManager">
+				<xr:TypeId>6667ae4c-c6a1-428e-8aff-9dd0ed940520</xr:TypeId>
+				<xr:ValueId>d87aea19-df7b-46f1-8a56-4cf3ca0c01a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_ЛогинДляКассыСБП" category="ValueKey">
+				<xr:TypeId>e8c2842b-ce42-4cdf-9d78-8c85014cc106</xr:TypeId>
+				<xr:ValueId>6343db54-19f3-4946-b308-7d3093fe2f81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_ЛогинДляКассыСБП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>06983600-77b1-44e3-910b-a6ce79d2ad7c</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>60</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

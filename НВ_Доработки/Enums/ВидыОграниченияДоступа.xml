@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Enum uuid="75256743-67d3-4548-8186-1a418eb732b6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОграниченияДоступа" category="Ref">
+				<xr:TypeId>a4b23423-3d74-4a2b-8dec-54d2d362ea53</xr:TypeId>
+				<xr:ValueId>b51e84d1-65b6-49f7-8277-4b6add8881dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОграниченияДоступа" category="Manager">
+				<xr:TypeId>be8a1264-8799-4128-adba-828821362b8f</xr:TypeId>
+				<xr:ValueId>324c2bf3-a0ed-4af9-95f2-dad9ddccd204</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОграниченияДоступа" category="List">
+				<xr:TypeId>e520b9ce-3102-44f9-9669-6d28e5b5685d</xr:TypeId>
+				<xr:ValueId>271936ee-d3be-4883-98ee-f5250c8ed01b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыОграниченияДоступа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c68c6e2c-2f93-481f-8fe6-17246adee393</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

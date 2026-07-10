@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AccumulationRegister uuid="98a58199-f1e2-489c-9b70-bca001ff8e91">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ИА_СредстваВРезервеНаФондах" category="Record">
+				<xr:TypeId>d5f9f52e-d98f-4b50-ae89-69530c87fd20</xr:TypeId>
+				<xr:ValueId>48ec1cc4-6d75-4392-a5cf-b4cc3df69b70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ИА_СредстваВРезервеНаФондах" category="Manager">
+				<xr:TypeId>abfb766f-e04e-4335-94c3-d624117efdba</xr:TypeId>
+				<xr:ValueId>3f2237ea-cc69-4099-b18e-d467bcd036b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ИА_СредстваВРезервеНаФондах" category="Selection">
+				<xr:TypeId>0c8a8061-5743-4fc9-929d-4006a0a9eae2</xr:TypeId>
+				<xr:ValueId>b24f2607-3fea-4846-9fb3-2cb2601601dd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ИА_СредстваВРезервеНаФондах" category="List">
+				<xr:TypeId>c710c803-6977-49d3-8506-b16b5b3eaddd</xr:TypeId>
+				<xr:ValueId>242351f4-b152-44a9-9d46-1c84f18382ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ИА_СредстваВРезервеНаФондах" category="RecordSet">
+				<xr:TypeId>c8f2d1bc-cce8-4d80-be80-cb737cdf8f6a</xr:TypeId>
+				<xr:ValueId>377eb6bd-ea35-4d96-b57d-2f8260204b89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ИА_СредстваВРезервеНаФондах" category="RecordKey">
+				<xr:TypeId>9cea3eb2-642a-4efa-98f1-01ffad020eef</xr:TypeId>
+				<xr:ValueId>e1b7e1a0-5c77-4ca0-91fb-95096d9554a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_СредстваВРезервеНаФондах</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c0aee72-9b9f-4c77-bf39-3b2bbaeadd85</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

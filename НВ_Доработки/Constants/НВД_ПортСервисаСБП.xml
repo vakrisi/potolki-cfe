@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="dd9cfd85-99f8-4ccb-9d7e-ca01c4fa8dcb">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_ПортСервисаСБП" category="Manager">
+				<xr:TypeId>5d759fe9-a838-4c88-843f-fec924bb2e31</xr:TypeId>
+				<xr:ValueId>0e58bc28-acf6-4eda-b684-4ad64fabb923</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_ПортСервисаСБП" category="ValueManager">
+				<xr:TypeId>9dd7acd9-b6be-4c1e-b387-6d2a221a6109</xr:TypeId>
+				<xr:ValueId>b6af8938-fe12-42fb-a919-4aa06625ebc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_ПортСервисаСБП" category="ValueKey">
+				<xr:TypeId>200dd01c-7f63-42e7-9c52-1458512ff48b</xr:TypeId>
+				<xr:ValueId>dac078c0-aa38-40ac-b1ca-809bbe012131</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_ПортСервисаСБП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c63a24b6-7c4b-4735-87d2-0cf172b6bf8e</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

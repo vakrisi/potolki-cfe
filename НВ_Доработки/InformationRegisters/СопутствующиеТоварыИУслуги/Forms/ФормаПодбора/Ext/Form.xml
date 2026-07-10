@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Подбор сопутствующих товаров</v8:content>
+		</v8:item>
+	</Title>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаПеренестиВДокумент" id="1">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>0</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
+				<ExtendedTooltip name="ФормаПеренестиВДокументРасширеннаяПодсказка" id="2"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Override">НВД_ПриСозданииНаСервереВместо</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="40">
+			<Visible>false</Visible>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<LabelField name="ИсходнаяНоменклатура" id="42">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ИсходнаяНоменклатураКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ИсходнаяНоменклатураРасширеннаяПодсказка" id="44"/>
+				</LabelField>
+				<LabelField name="ИсходноеКоличество" id="45">
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ИсходноеКоличествоКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="ИсходноеКоличествоРасширеннаяПодсказка" id="47"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ВыбраннаяНоменклатура" id="3">
+			<Representation>List</Representation>
+			<Visible>false</Visible>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ВыбраннаяНоменклатураКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="ВыбраннаяНоменклатураКоманднаяПанель" id="5">
+				<ChildItems>
+					<ButtonGroup name="ВыбраннаяНоменклатураГруппаФлажки" id="64">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбранная номенклатура группа флажки</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбранная номенклатура группа флажки</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураГруппаФлажкиРасширеннаяПодсказка" id="65"/>
+						<ChildItems>
+							<Button name="ВыбраннаяНоменклатураУстановитьФлажки" id="60">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ВыбраннаяНоменклатураУстановитьФлажкиРасширеннаяПодсказка" id="61"/>
+							</Button>
+							<Button name="ВыбраннаяНоменклатураСнятьФлажки" id="62">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ВыбраннаяНоменклатураСнятьФлажкиРасширеннаяПодсказка" id="63"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ВыбраннаяНоменклатураГруппаПереместить" id="70">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбранная номенклатура группа переместить</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбранная номенклатура группа переместить</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураГруппаПереместитьРасширеннаяПодсказка" id="71"/>
+						<ChildItems>
+							<Button name="ВыбраннаяНоменклатураПереместитьВверх" id="66">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ВыбраннаяНоменклатураПереместитьВверхРасширеннаяПодсказка" id="67"/>
+							</Button>
+							<Button name="ВыбраннаяНоменклатураПереместитьВниз" id="68">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ВыбраннаяНоменклатураПереместитьВнизРасширеннаяПодсказка" id="69"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ВыбраннаяНоменклатураРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="ВыбраннаяНоменклатураСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>ВыбраннаяНоменклатура</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбраннаяНоменклатураСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ВыбраннаяНоменклатураСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ВыбраннаяНоменклатураСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>ВыбраннаяНоменклатура</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбраннаяНоменклатураСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="ВыбраннаяНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ВыбраннаяНоменклатураУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>ВыбраннаяНоменклатура</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ВыбраннаяНоменклатураУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ВыбраннаяНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ВыбраннаяНоменклатураПометка" id="37">
+					<TitleLocation>None</TitleLocation>
+					<EditMode>Directly</EditMode>
+					<ShowInHeader>false</ShowInHeader>
+					<ShowInFooter>false</ShowInFooter>
+					<ContextMenu name="ВыбраннаяНоменклатураПометкаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураПометкаРасширеннаяПодсказка" id="39"/>
+				</CheckBoxField>
+				<InputField name="ВыбраннаяНоменклатураНоменклатураАртикул" id="48">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>16</Width>
+					<ContextMenu name="ВыбраннаяНоменклатураНоменклатураАртикулКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураНоменклатураАртикулРасширеннаяПодсказка" id="50"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураНоменклатура" id="16">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ВыбраннаяНоменклатураНоменклатураКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураНоменклатураРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураХарактеристикаНоменклатуры" id="34">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ВыбраннаяНоменклатураХарактеристикаНоменклатурыКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураХарактеристикаНоменклатурыРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураКоличество" id="19">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>8</Width>
+					<ContextMenu name="ВыбраннаяНоменклатураКоличествоКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураКоличествоРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураЕдиницаИзмерения" id="22">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>5</Width>
+					<ContextMenu name="ВыбраннаяНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="24"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураКоэффициент" id="25">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>5</Width>
+					<ContextMenu name="ВыбраннаяНоменклатураКоэффициентКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураКоэффициентРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ВыбраннаяНоменклатураКомментарий" id="51">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ВыбраннаяНоменклатураКомментарийКонтекстноеМеню" id="52"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураКомментарийРасширеннаяПодсказка" id="53"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаКомандПодбора" id="56">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд подбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команд подбора</v8:content>
+				</v8:item>
+			</ToolTip>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>WeakSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандПодбораРасширеннаяПодсказка" id="57"/>
+			<ChildItems>
+				<Button name="ПеренестиВДокумент" id="54">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПеренестиВДокументРасширеннаяПодсказка" id="55"/>
+				</Button>
+				<Button name="Отмена" id="58">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="59"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ДеревоСопутствующейНоменклатуры" id="72">
+			<Representation>Tree</Representation>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<ContextMenu name="ДеревоСопутствующейНоменклатурыКонтекстноеМеню" id="73"/>
+			<AutoCommandBar name="ДеревоСопутствующейНоменклатурыКоманднаяПанель" id="74">
+				<Autofill>false</Autofill>
+				<ChildItems>
+					<ButtonGroup name="ДеревоСопутствующейНоменклатурыГруппаФлажки" id="124">
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дерево сопутствующей номенклатуры группа флажки</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыГруппаФлажкиРасширеннаяПодсказка" id="125"/>
+						<ChildItems>
+							<Button name="ДеревоСопутствующейНоменклатурыУстановитьФлажки" id="126">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДеревоУстановитьФлажки</CommandName>
+								<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыУстановитьФлажкиРасширеннаяПодсказка" id="127"/>
+							</Button>
+							<Button name="ДеревоСопутствующейНоменклатурыСнятьФлажки" id="128">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДеревоСнятьФлажки</CommandName>
+								<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыСнятьФлажкиРасширеннаяПодсказка" id="129"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыРасширеннаяПодсказка" id="75"/>
+			<SearchStringAddition name="ДеревоСопутствующейНоменклатурыСтрокаПоиска" id="76">
+				<AdditionSource>
+					<Item>ДеревоСопутствующейНоменклатуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСопутствующейНоменклатурыСтрокаПоискаКонтекстноеМеню" id="77"/>
+				<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДеревоСопутствующейНоменклатурыСостояниеПросмотра" id="79">
+				<AdditionSource>
+					<Item>ДеревоСопутствующейНоменклатуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСопутствующейНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="80"/>
+				<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДеревоСопутствующейНоменклатурыУправлениеПоиском" id="82">
+				<AdditionSource>
+					<Item>ДеревоСопутствующейНоменклатуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДеревоСопутствующейНоменклатурыУправлениеПоискомКонтекстноеМеню" id="83"/>
+				<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ДеревоСопутствующейНоменклатурыПометка" id="118">
+					<EditMode>Directly</EditMode>
+					<ShowInHeader>false</ShowInHeader>
+					<ShowInFooter>false</ShowInFooter>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыПометкаКонтекстноеМеню" id="119"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыПометкаРасширеннаяПодсказка" id="120"/>
+				</CheckBoxField>
+				<InputField name="ДеревоСопутствующейНоменклатурыНоменклатура" id="85">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыНоменклатураКонтекстноеМеню" id="86"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыНоменклатураРасширеннаяПодсказка" id="87"/>
+				</InputField>
+				<InputField name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатуры" id="103">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатурыКонтекстноеМеню" id="104"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатурыРасширеннаяПодсказка" id="105"/>
+				</InputField>
+				<InputField name="ДеревоСопутствующейНоменклатурыКоличество" id="88">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>8</Width>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыКоличествоКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКоличествоРасширеннаяПодсказка" id="90"/>
+				</InputField>
+				<InputField name="ДеревоСопутствующейНоменклатурыЕдиницаИзмерения" id="91">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>5</Width>
+					<DropListButton>true</DropListButton>
+					<ChoiceButton>false</ChoiceButton>
+					<OpenButton>false</OpenButton>
+					<QuickChoice>true</QuickChoice>
+					<ChooseType>false</ChooseType>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыЕдиницаИзмеренияКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыЕдиницаИзмеренияРасширеннаяПодсказка" id="93"/>
+				</InputField>
+				<InputField name="ДеревоСопутствующейНоменклатурыКоэффициент" id="94">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>5</Width>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыКоэффициентКонтекстноеМеню" id="95"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКоэффициентРасширеннаяПодсказка" id="96"/>
+				</InputField>
+				<InputField name="ДеревоСопутствующейНоменклатурыКомментарий" id="121">
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыКомментарийКонтекстноеМеню" id="122"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКомментарийРасширеннаяПодсказка" id="123"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<Commands>
+		<Command name="ДеревоУстановитьФлажки" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить флажки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево установить флажки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.CheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">НВД_ДеревоУстановитьФлажкиПосле</Action>
+		</Command>
+		<Command name="ДеревоСнятьФлажки" id="1000001">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево снять флажки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево снять флажки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action callType="After">НВД_ДеревоСнятьФлажкиПосле</Action>
+		</Command>
+	</Commands>
+	<BaseForm version="2.21">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подбор сопутствующих товаров</v8:content>
+			</v8:item>
+		</Title>
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<Group>Vertical</Group>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="ФормаПеренестиВДокумент" id="1">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
+					<ExtendedTooltip name="ФормаПеренестиВДокументРасширеннаяПодсказка" id="2"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="Группа1" id="40">
+				<Visible>false</Visible>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+				<ChildItems>
+					<LabelField name="ИсходнаяНоменклатура" id="42">
+						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+						<ContextMenu name="ИсходнаяНоменклатураКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="ИсходнаяНоменклатураРасширеннаяПодсказка" id="44"/>
+					</LabelField>
+					<LabelField name="ИсходноеКоличество" id="45">
+						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+						<ContextMenu name="ИсходноеКоличествоКонтекстноеМеню" id="46"/>
+						<ExtendedTooltip name="ИсходноеКоличествоРасширеннаяПодсказка" id="47"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ВыбраннаяНоменклатура" id="3">
+				<Representation>List</Representation>
+				<Visible>false</Visible>
+				<RowSelectionMode>Cell</RowSelectionMode>
+				<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="ВыбраннаяНоменклатураКонтекстноеМеню" id="4"/>
+				<AutoCommandBar name="ВыбраннаяНоменклатураКоманднаяПанель" id="5">
+					<ChildItems>
+						<ButtonGroup name="ВыбраннаяНоменклатураГруппаФлажки" id="64">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбранная номенклатура группа флажки</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбранная номенклатура группа флажки</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>Compact</Representation>
+							<ExtendedTooltip name="ВыбраннаяНоменклатураГруппаФлажкиРасширеннаяПодсказка" id="65"/>
+							<ChildItems>
+								<Button name="ВыбраннаяНоменклатураУстановитьФлажки" id="60">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбраннаяНоменклатураУстановитьФлажкиРасширеннаяПодсказка" id="61"/>
+								</Button>
+								<Button name="ВыбраннаяНоменклатураСнятьФлажки" id="62">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбраннаяНоменклатураСнятьФлажкиРасширеннаяПодсказка" id="63"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+						<ButtonGroup name="ВыбраннаяНоменклатураГруппаПереместить" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбранная номенклатура группа переместить</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбранная номенклатура группа переместить</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>Compact</Representation>
+							<ExtendedTooltip name="ВыбраннаяНоменклатураГруппаПереместитьРасширеннаяПодсказка" id="71"/>
+							<ChildItems>
+								<Button name="ВыбраннаяНоменклатураПереместитьВверх" id="66">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбраннаяНоменклатураПереместитьВверхРасширеннаяПодсказка" id="67"/>
+								</Button>
+								<Button name="ВыбраннаяНоменклатураПереместитьВниз" id="68">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ВыбраннаяНоменклатураПереместитьВнизРасширеннаяПодсказка" id="69"/>
+								</Button>
+							</ChildItems>
+						</ButtonGroup>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ВыбраннаяНоменклатураРасширеннаяПодсказка" id="6"/>
+				<SearchStringAddition name="ВыбраннаяНоменклатураСтрокаПоиска" id="7">
+					<AdditionSource>
+						<Item>ВыбраннаяНоменклатура</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ВыбраннаяНоменклатураСтрокаПоискаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ВыбраннаяНоменклатураСостояниеПросмотра" id="10">
+					<AdditionSource>
+						<Item>ВыбраннаяНоменклатура</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ВыбраннаяНоменклатураСостояниеПросмотраКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ВыбраннаяНоменклатураУправлениеПоиском" id="13">
+					<AdditionSource>
+						<Item>ВыбраннаяНоменклатура</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ВыбраннаяНоменклатураУправлениеПоискомКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="ВыбраннаяНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<CheckBoxField name="ВыбраннаяНоменклатураПометка" id="37">
+						<TitleLocation>None</TitleLocation>
+						<EditMode>Directly</EditMode>
+						<ShowInHeader>false</ShowInHeader>
+						<ShowInFooter>false</ShowInFooter>
+						<ContextMenu name="ВыбраннаяНоменклатураПометкаКонтекстноеМеню" id="38"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураПометкаРасширеннаяПодсказка" id="39"/>
+					</CheckBoxField>
+					<InputField name="ВыбраннаяНоменклатураНоменклатураАртикул" id="48">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>16</Width>
+						<ContextMenu name="ВыбраннаяНоменклатураНоменклатураАртикулКонтекстноеМеню" id="49"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураНоменклатураАртикулРасширеннаяПодсказка" id="50"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураНоменклатура" id="16">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ВыбраннаяНоменклатураНоменклатураКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураНоменклатураРасширеннаяПодсказка" id="18"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураХарактеристикаНоменклатуры" id="34">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ВыбраннаяНоменклатураХарактеристикаНоменклатурыКонтекстноеМеню" id="35"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураХарактеристикаНоменклатурыРасширеннаяПодсказка" id="36"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураКоличество" id="19">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>8</Width>
+						<ContextMenu name="ВыбраннаяНоменклатураКоличествоКонтекстноеМеню" id="20"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураКоличествоРасширеннаяПодсказка" id="21"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураЕдиницаИзмерения" id="22">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>5</Width>
+						<ContextMenu name="ВыбраннаяНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="24"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураКоэффициент" id="25">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>5</Width>
+						<ContextMenu name="ВыбраннаяНоменклатураКоэффициентКонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураКоэффициентРасширеннаяПодсказка" id="27"/>
+					</InputField>
+					<InputField name="ВыбраннаяНоменклатураКомментарий" id="51">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ВыбраннаяНоменклатураКомментарийКонтекстноеМеню" id="52"/>
+						<ExtendedTooltip name="ВыбраннаяНоменклатураКомментарийРасширеннаяПодсказка" id="53"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ГруппаКомандПодбора" id="56">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа команд подбора</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа команд подбора</v8:content>
+					</v8:item>
+				</ToolTip>
+				<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+				<Group>HorizontalIfPossible</Group>
+				<Representation>WeakSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомандПодбораРасширеннаяПодсказка" id="57"/>
+				<ChildItems>
+					<Button name="ПеренестиВДокумент" id="54">
+						<Type>UsualButton</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Добавить</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПеренестиВДокументРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="Отмена" id="58">
+						<Type>UsualButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="59"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="ДеревоСопутствующейНоменклатуры" id="72">
+				<Representation>Tree</Representation>
+				<RowSelectionMode>Cell</RowSelectionMode>
+				<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<InitialTreeView>ExpandAllLevels</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<ContextMenu name="ДеревоСопутствующейНоменклатурыКонтекстноеМеню" id="73"/>
+				<AutoCommandBar name="ДеревоСопутствующейНоменклатурыКоманднаяПанель" id="74">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыРасширеннаяПодсказка" id="75"/>
+				<SearchStringAddition name="ДеревоСопутствующейНоменклатурыСтрокаПоиска" id="76">
+					<AdditionSource>
+						<Item>ДеревоСопутствующейНоменклатуры</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыСтрокаПоискаКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="78"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="ДеревоСопутствующейНоменклатурыСостояниеПросмотра" id="79">
+					<AdditionSource>
+						<Item>ДеревоСопутствующейНоменклатуры</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="81"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="ДеревоСопутствующейНоменклатурыУправлениеПоиском" id="82">
+					<AdditionSource>
+						<Item>ДеревоСопутствующейНоменклатуры</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="ДеревоСопутствующейНоменклатурыУправлениеПоискомКонтекстноеМеню" id="83"/>
+					<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="84"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<CheckBoxField name="ДеревоСопутствующейНоменклатурыПометка" id="118">
+						<EditMode>Directly</EditMode>
+						<ShowInHeader>false</ShowInHeader>
+						<ShowInFooter>false</ShowInFooter>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыПометкаКонтекстноеМеню" id="119"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыПометкаРасширеннаяПодсказка" id="120"/>
+					</CheckBoxField>
+					<InputField name="ДеревоСопутствующейНоменклатурыНоменклатура" id="85">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыНоменклатураКонтекстноеМеню" id="86"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыНоменклатураРасширеннаяПодсказка" id="87"/>
+					</InputField>
+					<InputField name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатуры" id="103">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатурыКонтекстноеМеню" id="104"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыХарактеристикаНоменклатурыРасширеннаяПодсказка" id="105"/>
+					</InputField>
+					<InputField name="ДеревоСопутствующейНоменклатурыКоличество" id="88">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>8</Width>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыКоличествоКонтекстноеМеню" id="89"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКоличествоРасширеннаяПодсказка" id="90"/>
+					</InputField>
+					<InputField name="ДеревоСопутствующейНоменклатурыЕдиницаИзмерения" id="91">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>5</Width>
+						<DropListButton>true</DropListButton>
+						<ChoiceButton>false</ChoiceButton>
+						<OpenButton>false</OpenButton>
+						<QuickChoice>true</QuickChoice>
+						<ChooseType>false</ChooseType>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыЕдиницаИзмеренияКонтекстноеМеню" id="92"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыЕдиницаИзмеренияРасширеннаяПодсказка" id="93"/>
+					</InputField>
+					<InputField name="ДеревоСопутствующейНоменклатурыКоэффициент" id="94">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>5</Width>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыКоэффициентКонтекстноеМеню" id="95"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКоэффициентРасширеннаяПодсказка" id="96"/>
+					</InputField>
+					<InputField name="ДеревоСопутствующейНоменклатурыКомментарий" id="121">
+						<ReadOnly>true</ReadOnly>
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="ДеревоСопутствующейНоменклатурыКомментарийКонтекстноеМеню" id="122"/>
+						<ExtendedTooltip name="ДеревоСопутствующейНоменклатурыКомментарийРасширеннаяПодсказка" id="123"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

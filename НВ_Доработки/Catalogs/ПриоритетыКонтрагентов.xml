@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="95ce7a84-52ad-4a8d-8b1c-72209aefa14c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПриоритетыКонтрагентов" category="Object">
+				<xr:TypeId>da742415-9c56-4aa6-9962-3ca9e998e157</xr:TypeId>
+				<xr:ValueId>f6139369-9832-4521-be80-c57e7a5eb627</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПриоритетыКонтрагентов" category="Ref">
+				<xr:TypeId>7a9c60c9-e441-47e9-8fbd-f6ed296d6c3d</xr:TypeId>
+				<xr:ValueId>66bdccea-ef14-4763-bf19-2f0bf76ea70c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПриоритетыКонтрагентов" category="Selection">
+				<xr:TypeId>dfc626c7-179e-44c5-9d76-21775ba33cb6</xr:TypeId>
+				<xr:ValueId>502f9922-d976-4483-9966-9ee488d557b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПриоритетыКонтрагентов" category="List">
+				<xr:TypeId>548f36ff-661a-4bce-8eb1-c4a4cd73cc3f</xr:TypeId>
+				<xr:ValueId>5a4dd48b-ea50-4baf-9d8b-a54e17782146</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПриоритетыКонтрагентов" category="Manager">
+				<xr:TypeId>3d3bfa74-54ec-4543-bcff-9bb4a8066259</xr:TypeId>
+				<xr:ValueId>d5d6a186-c063-424f-a7c3-3bde027bf48a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриоритетыКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>74aef379-e18d-416c-9621-beed801882cd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

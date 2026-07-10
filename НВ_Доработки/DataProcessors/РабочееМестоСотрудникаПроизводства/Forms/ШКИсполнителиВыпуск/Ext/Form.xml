@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<LabelField name="Заказ" id="11">
+			<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="ЗаказКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ЗаказРасширеннаяПодсказка" id="13"/>
+		</LabelField>
+		<LabelField name="ПредставлениеПродукции" id="49">
+			<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="ПредставлениеПродукцииКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ПредставлениеПродукцииРасширеннаяПодсказка" id="51"/>
+		</LabelField>
+		<Table name="Материалы" id="14">
+			<Representation>List</Representation>
+			<TitleLocation>Top</TitleLocation>
+			<ReadOnly>true</ReadOnly>
+			<HeightInTableRows>8</HeightInTableRows>
+			<RowSelectionMode>Cell</RowSelectionMode>
+			<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="МатериалыКонтекстноеМеню" id="15"/>
+			<AutoCommandBar name="МатериалыКоманднаяПанель" id="16">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="17"/>
+			<SearchStringAddition name="МатериалыСтрокаПоиска" id="18">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="21">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="МатериалыУправлениеПоиском" id="24">
+				<AdditionSource>
+					<Item>Материалы</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="МатериалыНоменклатура" id="27">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="МатериалыНоменклатураРасширеннаяПодсказка" id="29"/>
+				</InputField>
+				<InputField name="МатериалыХарактеристикаНоменклатуры" id="30">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>6</Width>
+					<ContextMenu name="МатериалыХарактеристикаНоменклатурыКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="МатериалыХарактеристикаНоменклатурыРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<InputField name="МатериалыСерияНоменклатуры" id="33">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>6</Width>
+					<ContextMenu name="МатериалыСерияНоменклатурыКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="МатериалыСерияНоменклатурыРасширеннаяПодсказка" id="35"/>
+				</InputField>
+				<InputField name="МатериалыКоличество" id="36">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>8</Width>
+					<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="МатериалыЕдиницаИзмерения" id="39">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>4</Width>
+					<ContextMenu name="МатериалыЕдиницаИзмеренияКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="МатериалыЕдиницаИзмеренияРасширеннаяПодсказка" id="41"/>
+				</InputField>
+				<InputField name="МатериалыКоэффициент" id="42">
+					<EditMode>EnterOnInput</EditMode>
+					<AutoEditMode>true</AutoEditMode>
+					<Width>6</Width>
+					<ContextMenu name="МатериалыКоэффициентКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="МатериалыКоэффициентРасширеннаяПодсказка" id="44"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаКнопок" id="5">
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Group>Horizontal</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<Button name="Выполнен" id="1">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<Width>15</Width>
+					<Height>4</Height>
+					<MaxHeight>4</MaxHeight>
+					<CommandName>0</CommandName>
+					<ButtonImportance>Main</ButtonImportance>
+					<ExtendedTooltip name="ВыполненРасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="ВыпускИзОстатков" id="9">
+					<Type>UsualButton</Type>
+					<TitleHeight>2</TitleHeight>
+					<Width>15</Width>
+					<Height>4</Height>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ВыпускИзОстатковРасширеннаяПодсказка" id="10"/>
+				</Button>
+				<Button name="ВыпускИзМатериаловЗаказчика" id="7">
+					<Type>UsualButton</Type>
+					<TitleHeight>3</TitleHeight>
+					<Width>15</Width>
+					<Height>4</Height>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ВыпускИзМатериаловЗаказчикаРасширеннаяПодсказка" id="8"/>
+				</Button>
+				<Button name="ЗаменитьМатериал" id="45">
+					<Type>UsualButton</Type>
+					<TitleHeight>2</TitleHeight>
+					<Width>15</Width>
+					<Height>4</Height>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ЗаменитьМатериалРасширеннаяПодсказка" id="46"/>
+				</Button>
+				<Button name="ИзменитьКоличество" id="47">
+					<Type>UsualButton</Type>
+					<TitleHeight>2</TitleHeight>
+					<Width>15</Width>
+					<Height>4</Height>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ИзменитьКоличествоРасширеннаяПодсказка" id="48"/>
+				</Button>
+				<Button name="Закрыть" id="3">
+					<Type>UsualButton</Type>
+					<Width>15</Width>
+					<Height>4</Height>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОТМЕНА</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="4"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
+		<Group>Vertical</Group>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<LabelField name="Заказ" id="11">
+				<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ContextMenu name="ЗаказКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ЗаказРасширеннаяПодсказка" id="13"/>
+			</LabelField>
+			<LabelField name="ПредставлениеПродукции" id="49">
+				<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+				<ContextMenu name="ПредставлениеПродукцииКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="ПредставлениеПродукцииРасширеннаяПодсказка" id="51"/>
+			</LabelField>
+			<Table name="Материалы" id="14">
+				<Representation>List</Representation>
+				<TitleLocation>Top</TitleLocation>
+				<ReadOnly>true</ReadOnly>
+				<HeightInTableRows>8</HeightInTableRows>
+				<RowSelectionMode>Cell</RowSelectionMode>
+				<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+				<RowFilter xsi:nil="true"/>
+				<ContextMenu name="МатериалыКонтекстноеМеню" id="15"/>
+				<AutoCommandBar name="МатериалыКоманднаяПанель" id="16">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="17"/>
+				<SearchStringAddition name="МатериалыСтрокаПоиска" id="18">
+					<AdditionSource>
+						<Item>Материалы</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="21">
+					<AdditionSource>
+						<Item>Материалы</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="МатериалыУправлениеПоиском" id="24">
+					<AdditionSource>
+						<Item>Материалы</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="МатериалыНоменклатура" id="27">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<ContextMenu name="МатериалыНоменклатураКонтекстноеМеню" id="28"/>
+						<ExtendedTooltip name="МатериалыНоменклатураРасширеннаяПодсказка" id="29"/>
+					</InputField>
+					<InputField name="МатериалыХарактеристикаНоменклатуры" id="30">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>6</Width>
+						<ContextMenu name="МатериалыХарактеристикаНоменклатурыКонтекстноеМеню" id="31"/>
+						<ExtendedTooltip name="МатериалыХарактеристикаНоменклатурыРасширеннаяПодсказка" id="32"/>
+					</InputField>
+					<InputField name="МатериалыСерияНоменклатуры" id="33">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>6</Width>
+						<ContextMenu name="МатериалыСерияНоменклатурыКонтекстноеМеню" id="34"/>
+						<ExtendedTooltip name="МатериалыСерияНоменклатурыРасширеннаяПодсказка" id="35"/>
+					</InputField>
+					<InputField name="МатериалыКоличество" id="36">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>8</Width>
+						<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="37"/>
+						<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="38"/>
+					</InputField>
+					<InputField name="МатериалыЕдиницаИзмерения" id="39">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>4</Width>
+						<ContextMenu name="МатериалыЕдиницаИзмеренияКонтекстноеМеню" id="40"/>
+						<ExtendedTooltip name="МатериалыЕдиницаИзмеренияРасширеннаяПодсказка" id="41"/>
+					</InputField>
+					<InputField name="МатериалыКоэффициент" id="42">
+						<EditMode>EnterOnInput</EditMode>
+						<AutoEditMode>true</AutoEditMode>
+						<Width>6</Width>
+						<ContextMenu name="МатериалыКоэффициентКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="МатериалыКоэффициентРасширеннаяПодсказка" id="44"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+			<UsualGroup name="ГруппаКнопок" id="5">
+				<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+				<Group>Horizontal</Group>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="6"/>
+				<ChildItems>
+					<Button name="Выполнен" id="1">
+						<Type>UsualButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<Width>15</Width>
+						<Height>4</Height>
+						<MaxHeight>4</MaxHeight>
+						<CommandName>0</CommandName>
+						<ButtonImportance>Main</ButtonImportance>
+						<ExtendedTooltip name="ВыполненРасширеннаяПодсказка" id="2"/>
+					</Button>
+					<Button name="ВыпускИзОстатков" id="9">
+						<Type>UsualButton</Type>
+						<TitleHeight>2</TitleHeight>
+						<Width>15</Width>
+						<Height>4</Height>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ВыпускИзОстатковРасширеннаяПодсказка" id="10"/>
+					</Button>
+					<Button name="ВыпускИзМатериаловЗаказчика" id="7">
+						<Type>UsualButton</Type>
+						<TitleHeight>3</TitleHeight>
+						<Width>15</Width>
+						<Height>4</Height>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ВыпускИзМатериаловЗаказчикаРасширеннаяПодсказка" id="8"/>
+					</Button>
+					<Button name="ЗаменитьМатериал" id="45">
+						<Type>UsualButton</Type>
+						<TitleHeight>2</TitleHeight>
+						<Width>15</Width>
+						<Height>4</Height>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ЗаменитьМатериалРасширеннаяПодсказка" id="46"/>
+					</Button>
+					<Button name="ИзменитьКоличество" id="47">
+						<Type>UsualButton</Type>
+						<TitleHeight>2</TitleHeight>
+						<Width>15</Width>
+						<Height>4</Height>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ИзменитьКоличествоРасширеннаяПодсказка" id="48"/>
+					</Button>
+					<Button name="Закрыть" id="3">
+						<Type>UsualButton</Type>
+						<Width>15</Width>
+						<Height>4</Height>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ОТМЕНА</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="4"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

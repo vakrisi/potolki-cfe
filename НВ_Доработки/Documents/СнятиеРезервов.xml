@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="ccd777df-3121-4e57-a8b3-a2c8770427b9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СнятиеРезервов" category="Object">
+				<xr:TypeId>311b82c9-20fd-4db0-b85b-45a6b2af7d4e</xr:TypeId>
+				<xr:ValueId>d2fc800e-f625-4d3b-94d2-7330ac73bbb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СнятиеРезервов" category="Ref">
+				<xr:TypeId>8e3aa9ab-eb2f-4fc9-9580-4631de48f602</xr:TypeId>
+				<xr:ValueId>a7a8e689-cff4-4048-9045-2df8d38306f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СнятиеРезервов" category="Selection">
+				<xr:TypeId>31ec94e1-c290-4f01-a833-2a1df70b5d06</xr:TypeId>
+				<xr:ValueId>46e1ddee-ff52-45ae-bf9d-6696a6824d60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СнятиеРезервов" category="List">
+				<xr:TypeId>59b75fed-de71-4f91-a07a-df893339c177</xr:TypeId>
+				<xr:ValueId>5dc2aa9e-9924-43fd-bb54-596a4687b8b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СнятиеРезервов" category="Manager">
+				<xr:TypeId>87e0840e-527f-4df4-aa56-872cb4e4567a</xr:TypeId>
+				<xr:ValueId>47c7dc37-f8a4-4daa-99c1-2a3637e12905</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СнятиеРезервов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0123a78e-15fc-49ce-8705-8ea06ad03a88</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="c2b6e98c-b086-4f10-af60-17020541e904">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СнятиеРезервов.Товары" category="TabularSection">
+						<xr:TypeId>61409096-4555-47fe-8363-a4f85b989a3f</xr:TypeId>
+						<xr:ValueId>f00b8419-f26f-4202-aa49-deb7658c1ce4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СнятиеРезервов.Товары" category="TabularSectionRow">
+						<xr:TypeId>9d98535c-a4c6-441d-804d-43d73153ee61</xr:TypeId>
+						<xr:ValueId>901a515c-9292-4f56-bf79-a11854813ac2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f7b9006-3d21-45fb-b46d-89abe5fb13c1</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9298aad0-b949-42f4-b2d5-733d01fed04d">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ДокументРезерва</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>fec84757-6886-4541-b3e6-165aa2575cc4</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AccumulationRegister uuid="4e72afdc-5764-46e2-b97c-508d772bfa1a">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ВыработкаИсполнителейПроизводства" category="Record">
+				<xr:TypeId>5d16b032-a377-4a25-a3a9-20c85dbd2c9c</xr:TypeId>
+				<xr:ValueId>30b5fb74-ad98-4c56-8c43-ee7488a4c935</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ВыработкаИсполнителейПроизводства" category="Manager">
+				<xr:TypeId>a6135b12-dbec-4482-84f7-dd2bf100448b</xr:TypeId>
+				<xr:ValueId>edc0157d-9c5f-4298-ae44-c7ebbcb04c5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ВыработкаИсполнителейПроизводства" category="Selection">
+				<xr:TypeId>27afbe3b-52af-441f-a1b6-f6e2cbcdd8b7</xr:TypeId>
+				<xr:ValueId>d5b8049a-cd55-4b26-a378-c3245ab1b816</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ВыработкаИсполнителейПроизводства" category="List">
+				<xr:TypeId>3f79cb32-90b9-43b5-9610-e53ddddd815e</xr:TypeId>
+				<xr:ValueId>c8901ac2-1caa-4278-bbf9-d9350de0f898</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ВыработкаИсполнителейПроизводства" category="RecordSet">
+				<xr:TypeId>0fe90655-d084-4d90-a578-a621f7ed4387</xr:TypeId>
+				<xr:ValueId>2768d725-d189-4a28-ba8a-db380062153a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ВыработкаИсполнителейПроизводства" category="RecordKey">
+				<xr:TypeId>91526e18-a740-4bf1-bac9-c6c2cbf12f97</xr:TypeId>
+				<xr:ValueId>afa4de57-e4fd-4495-b6c1-4c0bbc38dadf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыработкаИсполнителейПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bb49e56f-041e-4af1-83ca-ed10135a4afe</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9cef95ed-eedc-40fc-a87d-a63db28f5221">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Количество</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>867afdd6-1487-45e3-86fd-1351b3c6f481</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="092adc47-326d-4bca-8342-0e1a6d75b89c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Стоимость</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8cf79a38-1315-43cd-a6d5-2d17da9681a3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="abe18019-b6ed-4751-b524-c463eee5b4e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Цена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a78d9a1-aa4f-461f-8ac8-c84b1c1b5309</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="6dda259c-7f26-4a17-aa8c-27da8d1e2b7d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерРасчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a6fa3e55-9abb-4de0-b1ad-abebad1f69d1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="373cf0b6-d9a2-4de4-aeba-1776d57cd3e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>89839117-55e3-4dd9-9ba2-ae640d887f81</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="80f83b2c-2847-452a-8a70-7106d81f833c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6ac93c17-3012-48b8-9ee2-7a5fcd073641</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="81f3cb7e-b4d8-43fd-b4e0-5dca9a541646">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроизводственнаяОперация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0acdcd19-44e2-4209-81ce-02637c265be1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПроизводственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="b4bec41f-f6c9-4d17-b3e2-d40530efaa33">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидНачисления</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>939fe411-d7a6-41a6-a605-0ebb3663eeef</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыНачислений</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ec6f4b38-beb7-4242-bc54-60c6cdd1f0fb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Продукция</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>749500db-6d73-4011-a3ba-0fa51b82785d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="28815eef-fe8c-46d9-bc42-3201a5eece0a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7a19cd93-bbd2-4297-ad69-aa8de89221a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="82c5c997-21cb-4949-8216-f55a8d3523f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектВыработки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7b9d2cb6-19db-4304-b544-133caf8396ab</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

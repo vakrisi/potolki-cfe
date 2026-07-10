@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выбор номенклатуры</v8:content>
+		</v8:item>
+	</Title>
+	<Height>40</Height>
+	<WindowOpeningMode>LockOwner</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<Group>Vertical</Group>
+	<ScalingMode>Normal</ScalingMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОбщая" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа общая</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа общая</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>WeakSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОбщаяРасширеннаяПодсказка" id="30"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаВыбораГруппыНоменклатуры" id="31">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выбора группы номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выбора группы номенклатуры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>WeakSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыбораГруппыНоменклатурыРасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<Table name="ГруппаНоменклатуры" id="73">
+							<Representation>Tree</Representation>
+							<ReadOnly>true</ReadOnly>
+							<SelectionMode>SingleRow</SelectionMode>
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+							<CurrentRowUse>SelectionPresentationAndChoice</CurrentRowUse>
+							<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="74"/>
+							<AutoCommandBar name="ГруппаНоменклатурыКоманднаяПанель" id="75">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ГруппаНоменклатурыРасширеннаяПодсказка" id="76"/>
+							<SearchStringAddition name="ГруппаНоменклатурыСтрокаПоиска" id="77">
+								<AdditionSource>
+									<Item>ГруппаНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппаНоменклатурыСтрокаПоискаКонтекстноеМеню" id="78"/>
+								<ExtendedTooltip name="ГруппаНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="79"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ГруппаНоменклатурыСостояниеПросмотра" id="80">
+								<AdditionSource>
+									<Item>ГруппаНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппаНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="81"/>
+								<ExtendedTooltip name="ГруппаНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="82"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ГруппаНоменклатурыУправлениеПоиском" id="83">
+								<AdditionSource>
+									<Item>ГруппаНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ГруппаНоменклатурыУправлениеПоискомКонтекстноеМеню" id="84"/>
+								<ExtendedTooltip name="ГруппаНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="85"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ГруппаНоменклатурыНаименование" id="89">
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="ГруппаНоменклатурыНаименованиеКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ГруппаНоменклатурыНаименованиеРасширеннаяПодсказка" id="91"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ГруппаНавигацииПоГруппеНоменклатуры" id="49">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа навигации по группе номенклатуры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа навигации по группе номенклатуры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНавигацииПоГруппеНоменклатурыРасширеннаяПодсказка" id="50"/>
+							<ChildItems>
+								<Button name="ЛистатьГруппыВверх" id="51">
+									<Type>UsualButton</Type>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<ExtendedTooltip name="ЛистатьГруппыВверхРасширеннаяПодсказка" id="52"/>
+								</Button>
+								<Button name="ЛистатьГруппыВниз" id="53">
+									<Type>UsualButton</Type>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<ExtendedTooltip name="ЛистатьГруппыВнизРасширеннаяПодсказка" id="54"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаВыбораНоменклатуры" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выбора номенклатуры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа выбора номенклатуры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>WeakSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыбораНоменклатурыРасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<Table name="СписокНоменклатуры" id="57">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<SelectionMode>SingleRow</SelectionMode>
+							<RowSelectionMode>Cell</RowSelectionMode>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="58"/>
+							<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="59">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="60"/>
+							<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="61">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="62"/>
+								<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="64">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="65"/>
+								<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="67">
+								<AdditionSource>
+									<Item>СписокНоменклатуры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="68"/>
+								<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="СписокНоменклатурыНоменклатура" id="70">
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
+									<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="72"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+						<UsualGroup name="ГруппаКнопокВыбора" id="21">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопок выбора</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа кнопок выбора</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>WeakSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКнопокВыбораРасширеннаяПодсказка" id="22"/>
+							<ChildItems>
+								<Button name="ЛистатьВверх" id="23">
+									<Type>UsualButton</Type>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ВВЕРХ</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ЛистатьВверхРасширеннаяПодсказка" id="24"/>
+								</Button>
+								<Button name="ЛистатьВниз" id="25">
+									<Type>UsualButton</Type>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<ExtendedTooltip name="ЛистатьВнизРасширеннаяПодсказка" id="26"/>
+								</Button>
+								<Button name="Выбрать" id="19">
+									<Type>UsualButton</Type>
+									<DefaultButton>true</DefaultButton>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ВЫБРАТЬ</v8:content>
+										</v8:item>
+									</Title>
+									<ButtonImportance>Main</ButtonImportance>
+									<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="20"/>
+								</Button>
+								<Button name="Закрыть" id="55">
+									<Type>UsualButton</Type>
+									<Width>14</Width>
+									<Height>3</Height>
+									<CommandName>0</CommandName>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="56"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.21">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выбор номенклатуры</v8:content>
+			</v8:item>
+		</Title>
+		<Height>40</Height>
+		<WindowOpeningMode>LockOwner</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<Group>Vertical</Group>
+		<ScalingMode>Normal</ScalingMode>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа пользовательских настроек</v8:content>
+					</v8:item>
+				</Title>
+				<VerticalStretch>false</VerticalStretch>
+				<Group>Vertical</Group>
+				<Representation>WeakSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОбщая" id="29">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа общая</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа общая</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>AlwaysHorizontal</Group>
+				<Representation>WeakSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОбщаяРасширеннаяПодсказка" id="30"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаВыбораГруппыНоменклатуры" id="31">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выбора группы номенклатуры</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выбора группы номенклатуры</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>WeakSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВыбораГруппыНоменклатурыРасширеннаяПодсказка" id="32"/>
+						<ChildItems>
+							<Table name="ГруппаНоменклатуры" id="73">
+								<Representation>Tree</Representation>
+								<ReadOnly>true</ReadOnly>
+								<SelectionMode>SingleRow</SelectionMode>
+								<RowSelectionMode>Cell</RowSelectionMode>
+								<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+								<CurrentRowUse>SelectionPresentationAndChoice</CurrentRowUse>
+								<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="74"/>
+								<AutoCommandBar name="ГруппаНоменклатурыКоманднаяПанель" id="75">
+									<Autofill>false</Autofill>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ГруппаНоменклатурыРасширеннаяПодсказка" id="76"/>
+								<SearchStringAddition name="ГруппаНоменклатурыСтрокаПоиска" id="77">
+									<AdditionSource>
+										<Item>ГруппаНоменклатуры</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ГруппаНоменклатурыСтрокаПоискаКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ГруппаНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="79"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ГруппаНоменклатурыСостояниеПросмотра" id="80">
+									<AdditionSource>
+										<Item>ГруппаНоменклатуры</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ГруппаНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ГруппаНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="82"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ГруппаНоменклатурыУправлениеПоиском" id="83">
+									<AdditionSource>
+										<Item>ГруппаНоменклатуры</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ГруппаНоменклатурыУправлениеПоискомКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ГруппаНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="85"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="ГруппаНоменклатурыНаименование" id="89">
+										<ReadOnly>true</ReadOnly>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа</v8:content>
+											</v8:item>
+										</Title>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
+										<ContextMenu name="ГруппаНоменклатурыНаименованиеКонтекстноеМеню" id="90"/>
+										<ExtendedTooltip name="ГруппаНоменклатурыНаименованиеРасширеннаяПодсказка" id="91"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ГруппаНавигацииПоГруппеНоменклатуры" id="49">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа навигации по группе номенклатуры</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа навигации по группе номенклатуры</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Representation>WeakSeparation</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНавигацииПоГруппеНоменклатурыРасширеннаяПодсказка" id="50"/>
+								<ChildItems>
+									<Button name="ЛистатьГруппыВверх" id="51">
+										<Type>UsualButton</Type>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<ExtendedTooltip name="ЛистатьГруппыВверхРасширеннаяПодсказка" id="52"/>
+									</Button>
+									<Button name="ЛистатьГруппыВниз" id="53">
+										<Type>UsualButton</Type>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<ExtendedTooltip name="ЛистатьГруппыВнизРасширеннаяПодсказка" id="54"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаВыбораНоменклатуры" id="27">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выбора номенклатуры</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа выбора номенклатуры</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>WeakSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВыбораНоменклатурыРасширеннаяПодсказка" id="28"/>
+						<ChildItems>
+							<Table name="СписокНоменклатуры" id="57">
+								<Representation>List</Representation>
+								<ReadOnly>true</ReadOnly>
+								<SelectionMode>SingleRow</SelectionMode>
+								<RowSelectionMode>Cell</RowSelectionMode>
+								<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="58"/>
+								<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="59">
+									<Autofill>false</Autofill>
+								</AutoCommandBar>
+								<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="60"/>
+								<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="61">
+									<AdditionSource>
+										<Item>СписокНоменклатуры</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="63"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="64">
+									<AdditionSource>
+										<Item>СписокНоменклатуры</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="65"/>
+									<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="66"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="67">
+									<AdditionSource>
+										<Item>СписокНоменклатуры</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="68"/>
+									<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="69"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="СписокНоменклатурыНоменклатура" id="70">
+										<ReadOnly>true</ReadOnly>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoEditMode>true</AutoEditMode>
+										<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="71"/>
+										<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="72"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+							<UsualGroup name="ГруппаКнопокВыбора" id="21">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа кнопок выбора</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа кнопок выбора</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Representation>WeakSeparation</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаКнопокВыбораРасширеннаяПодсказка" id="22"/>
+								<ChildItems>
+									<Button name="ЛистатьВверх" id="23">
+										<Type>UsualButton</Type>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ВВЕРХ</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ЛистатьВверхРасширеннаяПодсказка" id="24"/>
+									</Button>
+									<Button name="ЛистатьВниз" id="25">
+										<Type>UsualButton</Type>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<ExtendedTooltip name="ЛистатьВнизРасширеннаяПодсказка" id="26"/>
+									</Button>
+									<Button name="Выбрать" id="19">
+										<Type>UsualButton</Type>
+										<DefaultButton>true</DefaultButton>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ВЫБРАТЬ</v8:content>
+											</v8:item>
+										</Title>
+										<ButtonImportance>Main</ButtonImportance>
+										<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="20"/>
+									</Button>
+									<Button name="Закрыть" id="55">
+										<Type>UsualButton</Type>
+										<Width>14</Width>
+										<Height>3</Height>
+										<CommandName>0</CommandName>
+										<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+										<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="56"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

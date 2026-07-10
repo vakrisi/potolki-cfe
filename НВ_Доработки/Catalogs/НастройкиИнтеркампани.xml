@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="22adeb60-cd0b-405b-af99-c0a8e2c2a128">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиИнтеркампани" category="Object">
+				<xr:TypeId>89d1d5e2-7721-40d1-94d1-36a01e3706d8</xr:TypeId>
+				<xr:ValueId>88364216-fd1f-44c9-a3c1-bc651beb10e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиИнтеркампани" category="Ref">
+				<xr:TypeId>6f8d339e-26b4-4a76-982e-a7d237a5d23c</xr:TypeId>
+				<xr:ValueId>7135272f-ad68-4147-b65f-c564fbf80fdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиИнтеркампани" category="Selection">
+				<xr:TypeId>82412d14-54c9-417b-8446-6fadc91ca09b</xr:TypeId>
+				<xr:ValueId>9ad289a9-0cf1-4a3c-9496-ed042d8d85f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиИнтеркампани" category="List">
+				<xr:TypeId>6e153fa5-e345-4604-9bfe-f90467a1c96d</xr:TypeId>
+				<xr:ValueId>c1e3429f-fe1c-4a8c-8ac8-6fc91cffe622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиИнтеркампани" category="Manager">
+				<xr:TypeId>f6de090f-69bf-47c2-9130-0d130d76da6d</xr:TypeId>
+				<xr:ValueId>827cfbb1-a81b-4d95-9bd3-92b552f5ad85</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиИнтеркампани</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>482589a2-840f-476e-adba-56291950ca9a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

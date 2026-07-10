@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="249b8318-c60f-4b7e-84ae-a9e0d84d6de8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлатежноеПоручениеИсходящее" category="Object">
+				<xr:TypeId>5f7b6d20-494e-4dbb-9767-07bf56d031bf</xr:TypeId>
+				<xr:ValueId>33246389-0f08-4b20-a767-1e783b722780</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлатежноеПоручениеИсходящее" category="Ref">
+				<xr:TypeId>d20d1c49-744c-48f5-8f28-acc9f89706f7</xr:TypeId>
+				<xr:ValueId>bda9e737-359d-4194-b4c0-9462e2b27a81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлатежноеПоручениеИсходящее" category="Selection">
+				<xr:TypeId>c79d2e65-71be-4fa6-87e2-b6e37627d65c</xr:TypeId>
+				<xr:ValueId>de5ac46f-28dc-4216-9414-1733861bb2f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлатежноеПоручениеИсходящее" category="List">
+				<xr:TypeId>d932673c-c03e-4139-aa94-7f28254bb4df</xr:TypeId>
+				<xr:ValueId>1a873670-46b3-4d4a-83dc-42f60ec4df68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлатежноеПоручениеИсходящее" category="Manager">
+				<xr:TypeId>04e26d21-6578-4ad5-b1bf-1231ddc2992a</xr:TypeId>
+				<xr:ValueId>1fc80371-976a-434c-bdba-71b6b8bbc45e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПлатежноеПоручениеИсходящее</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1cae3d45-17a9-4b35-a0ff-3f8b6af61535</ExtendedConfigurationObject>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_ЗаказыНаПриобретение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_СредстваНаФондах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_СредстваВРезервеНаФондах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИА_ИсторияСтатусовЗВС</xr:Item>
+			</RegisterRecords>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

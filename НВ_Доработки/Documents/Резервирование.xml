@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="a9f1eb1f-d30a-43be-bdf4-ef2b984d2670">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Резервирование" category="Object">
+				<xr:TypeId>8119d59a-b7d5-4b47-b068-6ad0057ea068</xr:TypeId>
+				<xr:ValueId>72cde3c7-f981-4eab-a026-6d70c95aa58d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Резервирование" category="Ref">
+				<xr:TypeId>61e69530-5cb8-42d0-8452-e9b9ed4e4b59</xr:TypeId>
+				<xr:ValueId>a40224c8-7742-4d49-8dc8-270b7b1cf0a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Резервирование" category="Selection">
+				<xr:TypeId>be7bfce0-d05b-4917-9281-3a3d7241d95b</xr:TypeId>
+				<xr:ValueId>91301f08-6537-4330-8649-7d88db008873</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Резервирование" category="List">
+				<xr:TypeId>c1ac9177-4c5f-4bac-bcd0-8199090e515c</xr:TypeId>
+				<xr:ValueId>8d022481-7c1f-45ee-91aa-005bd2cf172c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Резервирование" category="Manager">
+				<xr:TypeId>c5bde0c7-47f8-4a2c-a68d-bf3bfd532613</xr:TypeId>
+				<xr:ValueId>2e1b861e-ab5e-4284-9e98-4cebb4ed65d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>Резервирование</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7df800a2-e1bf-43eb-8261-d736359624bd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8608ae1a-013e-4fdb-97e7-f190474a4966">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ТекущийСтатус</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текущий статус</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ExtendedConfigurationObject>8c369f44-8830-49e4-a5f3-fa9089678178</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатусыРезервирований</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

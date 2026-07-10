@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
+	<Group>Vertical</Group>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<Button name="Закрыть" id="12">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>0</CommandName>
+			<ButtonImportance>Main</ButtonImportance>
+			<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<UsualGroup name="ГруппаИдетПакетнаяЗагрузкаРасчетов" id="14">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идет пакетная загрузка расчетов</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИдетПакетнаяЗагрузкаРасчетовРасширеннаяПодсказка" id="15"/>
+			<ChildItems>
+				<CommandBar name="ГруппаКоманднаяПанель" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа командная панель</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа командная панель</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="19"/>
+					<ChildItems>
+						<Button name="ПродолжитьЗагрузку" id="40">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ПродолжитьЗагрузкуРасширеннаяПодсказка" id="41"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<LabelDecoration name="ДекорацияИдетЗагрузка" id="20">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В данный момент идет загрузка потолков из программы-построителя. 
+Вам необходимо дождаться окончания текущей загрузки 
+или Вы можете запустить загрузку принудительно, не дожидаясь 
+завершения ранее запущенной процедуры</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияИдетЗагрузкаКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ДекорацияИдетЗагрузкаРасширеннаяПодсказка" id="22"/>
+				</LabelDecoration>
+				<LabelDecoration name="ДекорацияПредупреждение" id="23">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:SpecialTextColor</TextColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внимание! Данное сообщение отображается в том случае, 
+если в данный момент уже кто-то из пользователей производит
+загрузку потолков либо предыдущая загрузка завершилась с ошибкой.
+Перед продолжением настоятельно просим убедиться, что никто из 
+ваших коллег в данный момент не производит загрузки из построителя.</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДекорацияПредупреждениеРасширеннаяПодсказка" id="25"/>
+				</LabelDecoration>
+				<LabelField name="ВремяУстановкиПризнакаЗагрузки" id="26">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время начала предыдущей загрузки</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ВремяУстановкиПризнакаЗагрузкиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ВремяУстановкиПризнакаЗагрузкиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<LabelField name="Пользователь" id="29">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кто запустил загрузку</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПользовательКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="31"/>
+				</LabelField>
+				<UsualGroup name="ГруппаКнопкаБудетДоступна" id="32">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопка будет доступна</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопка будет доступна</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКнопкаБудетДоступнаРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<LabelDecoration name="Декорация1" id="34">
+							<TextColor>web:RoyalBlue</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Кнопка "Продолжить загрузку" будет доступна через </v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="36"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияСекунд" id="37">
+							<TextColor>web:RoyalBlue</TextColor>
+							<ContextMenu name="ДекорацияСекундКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ДекорацияСекундРасширеннаяПодсказка" id="39"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОсновная" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>HorizontalIfPossible</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<ProgressBarField name="Индикатор" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обработано файлов</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Top</TitleLocation>
+					<ShowPercent>true</ShowPercent>
+					<ContextMenu name="ИндикаторКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ИндикаторРасширеннаяПодсказка" id="5"/>
+				</ProgressBarField>
+			</ChildItems>
+		</UsualGroup>
+		<FormattedDocumentField name="ЛогЗагрузки" id="6">
+			<ContextMenu name="ЛогЗагрузкиКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="ЛогЗагрузкиРасширеннаяПодсказка" id="8"/>
+		</FormattedDocumentField>
+		<CheckBoxField name="ЗакрыватьПриУспешномЗавершенииЗагрузки" id="9">
+			<TitleLocation>Right</TitleLocation>
+			<ContextMenu name="ЗакрыватьПриУспешномЗавершенииЗагрузкиКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="ЗакрыватьПриУспешномЗавершенииЗагрузкиРасширеннаяПодсказка" id="11"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.21">
+		<WindowOpeningMode>LockWholeInterface</WindowOpeningMode>
+		<Group>Vertical</Group>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<Button name="Закрыть" id="12">
+				<Type>UsualButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>0</CommandName>
+				<ButtonImportance>Main</ButtonImportance>
+				<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="13"/>
+			</Button>
+			<UsualGroup name="ГруппаИдетПакетнаяЗагрузкаРасчетов" id="14">
+				<Visible>false</Visible>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Идет пакетная загрузка расчетов</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>StrongSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИдетПакетнаяЗагрузкаРасчетовРасширеннаяПодсказка" id="15"/>
+				<ChildItems>
+					<CommandBar name="ГруппаКоманднаяПанель" id="18">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа командная панель</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа командная панель</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаКоманднаяПанельРасширеннаяПодсказка" id="19"/>
+						<ChildItems>
+							<Button name="ПродолжитьЗагрузку" id="40">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ПродолжитьЗагрузкуРасширеннаяПодсказка" id="41"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+					<LabelDecoration name="ДекорацияИдетЗагрузка" id="20">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В данный момент идет загрузка потолков из программы-построителя. 
+Вам необходимо дождаться окончания текущей загрузки 
+или Вы можете запустить загрузку принудительно, не дожидаясь 
+завершения ранее запущенной процедуры</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДекорацияИдетЗагрузкаКонтекстноеМеню" id="21"/>
+						<ExtendedTooltip name="ДекорацияИдетЗагрузкаРасширеннаяПодсказка" id="22"/>
+					</LabelDecoration>
+					<LabelDecoration name="ДекорацияПредупреждение" id="23">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<TextColor>style:SpecialTextColor</TextColor>
+						<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+						<Title formatted="true">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Внимание! Данное сообщение отображается в том случае, 
+если в данный момент уже кто-то из пользователей производит
+загрузку потолков либо предыдущая загрузка завершилась с ошибкой.
+Перед продолжением настоятельно просим убедиться, что никто из 
+ваших коллег в данный момент не производит загрузки из построителя.</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДекорацияПредупреждениеКонтекстноеМеню" id="24"/>
+						<ExtendedTooltip name="ДекорацияПредупреждениеРасширеннаяПодсказка" id="25"/>
+					</LabelDecoration>
+					<LabelField name="ВремяУстановкиПризнакаЗагрузки" id="26">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Время начала предыдущей загрузки</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ВремяУстановкиПризнакаЗагрузкиКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="ВремяУстановкиПризнакаЗагрузкиРасширеннаяПодсказка" id="28"/>
+					</LabelField>
+					<LabelField name="Пользователь" id="29">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Кто запустил загрузку</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ПользовательКонтекстноеМеню" id="30"/>
+						<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="31"/>
+					</LabelField>
+					<UsualGroup name="ГруппаКнопкаБудетДоступна" id="32">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа кнопка будет доступна</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа кнопка будет доступна</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаКнопкаБудетДоступнаРасширеннаяПодсказка" id="33"/>
+						<ChildItems>
+							<LabelDecoration name="Декорация1" id="34">
+								<TextColor>web:RoyalBlue</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Кнопка "Продолжить загрузку" будет доступна через </v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="Декорация1КонтекстноеМеню" id="35"/>
+								<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="36"/>
+							</LabelDecoration>
+							<LabelDecoration name="ДекорацияСекунд" id="37">
+								<TextColor>web:RoyalBlue</TextColor>
+								<ContextMenu name="ДекорацияСекундКонтекстноеМеню" id="38"/>
+								<ExtendedTooltip name="ДекорацияСекундРасширеннаяПодсказка" id="39"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОсновная" id="16">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа основная</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа основная</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>HorizontalIfPossible</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="17"/>
+				<ChildItems>
+					<ProgressBarField name="Индикатор" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Обработано файлов</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Top</TitleLocation>
+						<ShowPercent>true</ShowPercent>
+						<ContextMenu name="ИндикаторКонтекстноеМеню" id="4"/>
+						<ExtendedTooltip name="ИндикаторРасширеннаяПодсказка" id="5"/>
+					</ProgressBarField>
+				</ChildItems>
+			</UsualGroup>
+			<FormattedDocumentField name="ЛогЗагрузки" id="6">
+				<ContextMenu name="ЛогЗагрузкиКонтекстноеМеню" id="7"/>
+				<ExtendedTooltip name="ЛогЗагрузкиРасширеннаяПодсказка" id="8"/>
+			</FormattedDocumentField>
+			<CheckBoxField name="ЗакрыватьПриУспешномЗавершенииЗагрузки" id="9">
+				<TitleLocation>Right</TitleLocation>
+				<ContextMenu name="ЗакрыватьПриУспешномЗавершенииЗагрузкиКонтекстноеМеню" id="10"/>
+				<ExtendedTooltip name="ЗакрыватьПриУспешномЗавершенииЗагрузкиРасширеннаяПодсказка" id="11"/>
+			</CheckBoxField>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

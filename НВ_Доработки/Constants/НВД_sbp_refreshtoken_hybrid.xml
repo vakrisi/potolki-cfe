@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="19809121-ec3c-4343-b3c9-75a4a1257403">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_sbp_refreshtoken_hybrid" category="Manager">
+				<xr:TypeId>d119d9e7-c521-4305-a293-20d0f0eecee7</xr:TypeId>
+				<xr:ValueId>d6d03e83-1902-44bc-808c-0b5d98b5bcb9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_sbp_refreshtoken_hybrid" category="ValueManager">
+				<xr:TypeId>28ba807e-9260-4481-9018-16a586238016</xr:TypeId>
+				<xr:ValueId>9795e402-c86a-4d7b-834b-3e67eeb51010</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_sbp_refreshtoken_hybrid" category="ValueKey">
+				<xr:TypeId>70d51eb2-ff64-47e8-a10c-0cf391bf04b7</xr:TypeId>
+				<xr:ValueId>fe1af5e6-e8fd-4e20-9b03-e5b29947f369</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_sbp_refreshtoken_hybrid</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aebc8a1f-3d89-45f2-aba1-64ec1a07d029</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

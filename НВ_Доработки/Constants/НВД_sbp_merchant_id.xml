@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="17a26469-b8cb-40ad-a8e1-7a06e23a5d4c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_sbp_merchant_id" category="Manager">
+				<xr:TypeId>c628c0bc-2e1e-4bb9-87d0-a36ffec4501b</xr:TypeId>
+				<xr:ValueId>4736aa85-743c-4d6c-a419-bf7b1f6238ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_sbp_merchant_id" category="ValueManager">
+				<xr:TypeId>f10554f6-3929-4663-8481-e82de4e872a2</xr:TypeId>
+				<xr:ValueId>0618a717-1a5c-4388-a6b6-853dbf853d6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_sbp_merchant_id" category="ValueKey">
+				<xr:TypeId>d078a113-4f89-4699-ab8e-f2bac0677903</xr:TypeId>
+				<xr:ValueId>fe40ee45-8036-42d8-964a-4d142e4f818f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_sbp_merchant_id</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f9bffddc-24d0-43dd-bb12-7b2c4d00a44a</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

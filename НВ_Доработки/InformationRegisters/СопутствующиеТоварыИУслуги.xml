@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<InformationRegister uuid="c9334df6-f67f-41ed-b310-e8890b2921f5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СопутствующиеТоварыИУслуги" category="Record">
+				<xr:TypeId>cae5f262-59cc-4f15-a854-78febfd3204e</xr:TypeId>
+				<xr:ValueId>fb83c031-55ed-4383-8a64-50d2b4d199e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СопутствующиеТоварыИУслуги" category="Manager">
+				<xr:TypeId>98dd470c-2d4a-4e38-9340-c111eebc91a7</xr:TypeId>
+				<xr:ValueId>e3a14e4a-02be-44ed-aabf-6f1d2218daf7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СопутствующиеТоварыИУслуги" category="Selection">
+				<xr:TypeId>b097b6b2-882b-4b56-8617-e26e30a9d234</xr:TypeId>
+				<xr:ValueId>0e067238-4764-4592-957c-57589e5afe1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СопутствующиеТоварыИУслуги" category="List">
+				<xr:TypeId>820f6fb2-ce18-4a4b-84f8-21b024378875</xr:TypeId>
+				<xr:ValueId>f76727db-2c85-41df-8ac3-2f19837d4ef0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СопутствующиеТоварыИУслуги" category="RecordSet">
+				<xr:TypeId>e3393c25-380b-4aa8-b797-4f22ee9d6285</xr:TypeId>
+				<xr:ValueId>ffe24712-a674-4375-acef-8c667cc43622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СопутствующиеТоварыИУслуги" category="RecordKey">
+				<xr:TypeId>15f00272-2f7b-45b0-baff-c0418ffb8acf</xr:TypeId>
+				<xr:ValueId>3d4fb619-e163-4a30-b196-afab2588c9df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СопутствующиеТоварыИУслуги" category="RecordManager">
+				<xr:TypeId>d6cc02a9-fa34-497c-b038-69f418d8264e</xr:TypeId>
+				<xr:ValueId>a0dcf16f-1588-4341-a0d0-4ef65313cceb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СопутствующиеТоварыИУслуги</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>77567be9-8336-4c21-b2d4-1ae3fc4057f1</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаПодбора</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

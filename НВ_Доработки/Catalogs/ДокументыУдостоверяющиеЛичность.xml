@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="b15387aa-5475-4712-a288-39d225425be6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДокументыУдостоверяющиеЛичность" category="Object">
+				<xr:TypeId>dc0ac318-581a-4e6b-836a-30410464aaec</xr:TypeId>
+				<xr:ValueId>0136d109-81dc-468a-8c16-358749485f8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДокументыУдостоверяющиеЛичность" category="Ref">
+				<xr:TypeId>7ea8445f-21e3-4199-871d-f524c9db2c75</xr:TypeId>
+				<xr:ValueId>b48f6f79-1737-4c8e-8556-00da090141db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДокументыУдостоверяющиеЛичность" category="Selection">
+				<xr:TypeId>b074bdea-9ab6-435e-874f-9e4a5f598efc</xr:TypeId>
+				<xr:ValueId>387e5451-7738-47a8-9368-d190acb486f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДокументыУдостоверяющиеЛичность" category="List">
+				<xr:TypeId>53ce0c88-ebc0-4369-8041-81235ee79eee</xr:TypeId>
+				<xr:ValueId>c1780545-7ce0-420b-995e-7561b9577050</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДокументыУдостоверяющиеЛичность" category="Manager">
+				<xr:TypeId>2585756c-9b21-4365-82e7-23e61783d58e</xr:TypeId>
+				<xr:ValueId>c3d10ced-1464-4bc4-827c-975c2a113170</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДокументыУдостоверяющиеЛичность</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>dd4acbb6-7b66-4005-9ce3-03b83e275cfb</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Constant uuid="be410f91-78e2-4d0b-89b4-73c743e3d466">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.НВД_sbp_accesstoken_client" category="Manager">
+				<xr:TypeId>cf1f95b7-6468-450e-94ab-d29c433f44cf</xr:TypeId>
+				<xr:ValueId>71214800-4a0b-4ebe-80ae-4d137ece100c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.НВД_sbp_accesstoken_client" category="ValueManager">
+				<xr:TypeId>06a51d5c-4998-4f80-be82-c1ac70bf2b7e</xr:TypeId>
+				<xr:ValueId>78a08f6f-1a5f-4b4d-8f48-fd1edd07cf90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.НВД_sbp_accesstoken_client" category="ValueKey">
+				<xr:TypeId>88b008f6-6353-489c-bea0-1666b10b094b</xr:TypeId>
+				<xr:ValueId>f6209b74-764f-4f30-8c84-a622a459c555</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НВД_sbp_accesstoken_client</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>09287b3b-8610-41e0-8d4b-34638c3810a5</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

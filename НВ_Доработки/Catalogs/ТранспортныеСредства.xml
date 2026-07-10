@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="addb90da-d997-4170-a0ae-79d59e1356f4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТранспортныеСредства" category="Object">
+				<xr:TypeId>77d52e69-9de4-4d14-93c0-95083baf1ae6</xr:TypeId>
+				<xr:ValueId>a51f4c64-dacc-465a-a0d0-d6ba4ddff6ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТранспортныеСредства" category="Ref">
+				<xr:TypeId>d7a5de51-bcf6-405a-a807-b071064f4f17</xr:TypeId>
+				<xr:ValueId>3c072c37-6164-4526-9a29-d5922048cabb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТранспортныеСредства" category="Selection">
+				<xr:TypeId>fbbcc696-082b-4088-94e8-7f301fcb3a50</xr:TypeId>
+				<xr:ValueId>e8450043-b62f-418f-be0a-04f9e9a005ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТранспортныеСредства" category="List">
+				<xr:TypeId>f574c386-61f8-434f-9785-d0706d1188cd</xr:TypeId>
+				<xr:ValueId>4bdece8e-12ec-4dbf-b08a-c89c67fe58e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТранспортныеСредства" category="Manager">
+				<xr:TypeId>912c7d17-32f5-4aee-bf51-b1a944aa415e</xr:TypeId>
+				<xr:ValueId>8f45f670-4c40-4bb7-a5fa-90f813e3dfc3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТранспортныеСредства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a2d174e5-a3e1-4bb8-bf20-b604c85b1680</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

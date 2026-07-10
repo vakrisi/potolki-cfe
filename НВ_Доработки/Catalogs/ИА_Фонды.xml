@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="bd29ccca-46f8-43e8-a0fc-5ed28347b562">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИА_Фонды" category="Object">
+				<xr:TypeId>cf508800-de54-4e6c-86df-38229131f0c4</xr:TypeId>
+				<xr:ValueId>d2172912-7d0e-4e0d-9ae8-c6f23a53b8da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИА_Фонды" category="Ref">
+				<xr:TypeId>211b8281-55fa-42c5-8814-eb00fa3dc26b</xr:TypeId>
+				<xr:ValueId>1eb3cdf3-2052-46c0-a39a-d35a38f646bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИА_Фонды" category="Selection">
+				<xr:TypeId>67f2856a-2ec5-4613-a328-5ab7c3d18bfd</xr:TypeId>
+				<xr:ValueId>6b4b6b7d-ae66-4c1e-a6c2-dfc5bb1d4c21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИА_Фонды" category="List">
+				<xr:TypeId>0bb2b4f3-ce1d-4e75-85cf-ee99086818f9</xr:TypeId>
+				<xr:ValueId>43f77842-8ea0-48fa-bbb9-c208f1cc4a58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИА_Фонды" category="Manager">
+				<xr:TypeId>db80acee-152e-4a05-92e6-16971582c83b</xr:TypeId>
+				<xr:ValueId>b8676881-867c-40c5-9a42-d8c4fa510c09</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_Фонды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6ed1670f-cf7c-4e09-aba8-46cd04e184a0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="d58d04cd-dc7e-4ec5-870d-982360cea968">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыРезервирований" category="Object">
+				<xr:TypeId>163ffba2-fbe1-45d5-8f7c-dd7600883258</xr:TypeId>
+				<xr:ValueId>2aa5b8e4-d88f-4321-a1a7-124d1c437e98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыРезервирований" category="Ref">
+				<xr:TypeId>d206fac3-b798-4dc4-8b45-f6e83adaf4b6</xr:TypeId>
+				<xr:ValueId>bd841bbc-8ee3-49ad-bd6b-188e9706aa6b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыРезервирований" category="Selection">
+				<xr:TypeId>38b5bac4-f6a9-4198-b257-7b810945f781</xr:TypeId>
+				<xr:ValueId>1cad5c45-c0b5-4518-a504-2d0add4b9a68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыРезервирований" category="List">
+				<xr:TypeId>9efbad1d-7f07-4b8a-82f2-0b946a2a0d7a</xr:TypeId>
+				<xr:ValueId>cfa750ba-30f4-4b96-9188-dafdbef16e72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыРезервирований" category="Manager">
+				<xr:TypeId>1955fcdd-4737-4d93-8e19-7acfa396e620</xr:TypeId>
+				<xr:ValueId>ad6ab7db-5ad4-47cc-8479-51c724e7cd2a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыРезервирований</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6094d29c-c2a7-4d6f-aa09-58df922adc1f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

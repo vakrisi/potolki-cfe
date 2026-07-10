@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<InformationRegister uuid="d99811c5-eab3-401e-b26e-ba4901a30a18">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИА_ИсторияСтатусовЗВС" category="Record">
+				<xr:TypeId>30983aab-3738-467c-804c-d1c06f8b5d32</xr:TypeId>
+				<xr:ValueId>99504df4-45ca-4cfc-ac50-09f8a972b127</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИА_ИсторияСтатусовЗВС" category="Manager">
+				<xr:TypeId>96bf4a88-875b-47ab-9416-4ed1231bc812</xr:TypeId>
+				<xr:ValueId>a58d41b6-1bd2-47f5-86ec-210f44023ebb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИА_ИсторияСтатусовЗВС" category="Selection">
+				<xr:TypeId>f9aef754-6c85-4e5a-8ea4-d180eddcb0a1</xr:TypeId>
+				<xr:ValueId>58615722-47e5-44ff-8f4f-04c7d2f3b4f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИА_ИсторияСтатусовЗВС" category="List">
+				<xr:TypeId>59f66e64-a82d-40e0-bd32-8b78aa8ffdf5</xr:TypeId>
+				<xr:ValueId>e703ef36-4a6d-455f-9420-dc604ede4b34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИА_ИсторияСтатусовЗВС" category="RecordSet">
+				<xr:TypeId>dd640d59-62b1-404b-8098-f4e6f97093bd</xr:TypeId>
+				<xr:ValueId>195bf41c-75af-46a3-8e0a-a011f074f485</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИА_ИсторияСтатусовЗВС" category="RecordKey">
+				<xr:TypeId>67e56bdc-5d56-4f67-bad6-a6b70fc49dbd</xr:TypeId>
+				<xr:ValueId>cbcdf4fe-4d8d-4e2d-bd95-8252d74a8ca8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИА_ИсторияСтатусовЗВС" category="RecordManager">
+				<xr:TypeId>a92c3db8-7f47-48c6-9b94-771ddb110f03</xr:TypeId>
+				<xr:ValueId>fbe64503-76d6-48f9-a7a6-b0a8ff16786c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_ИсторияСтатусовЗВС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8fd6a609-e25f-46f6-b680-730a97f78f15</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

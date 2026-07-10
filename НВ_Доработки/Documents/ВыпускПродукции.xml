@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="8ce7efbf-247c-44a8-8705-03f1e56ea601">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыпускПродукции" category="Object">
+				<xr:TypeId>662032f5-a435-4556-a517-c1aa64a4e6ae</xr:TypeId>
+				<xr:ValueId>c1d4409b-a4c2-4b05-9cc3-dd34c4e9d1a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыпускПродукции" category="Ref">
+				<xr:TypeId>005b3f71-6aa2-433b-b1ec-76c59381baca</xr:TypeId>
+				<xr:ValueId>8ce9eb08-35ac-495d-b5a5-effb1457a0b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыпускПродукции" category="Selection">
+				<xr:TypeId>3339f200-69da-4b07-81da-b5d5e6d8a24f</xr:TypeId>
+				<xr:ValueId>62658c16-76f4-446c-a417-35fae3777935</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыпускПродукции" category="List">
+				<xr:TypeId>f9d1645f-e55c-4c3a-9e94-696a6a005e7f</xr:TypeId>
+				<xr:ValueId>c3686a6e-54b9-4174-864e-4d549ac9b4aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыпускПродукции" category="Manager">
+				<xr:TypeId>22d2aa83-4fae-4254-9143-4e35a7be96f9</xr:TypeId>
+				<xr:ValueId>3c73d8e4-efc9-471f-9524-296bad141f3a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыпускПродукции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>44bf4516-9562-46b2-a8b2-7c34dddcfeb8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AccumulationRegister uuid="abb4cc4d-ec17-4007-919d-773816d0237b">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ВзаиморасчетыСКонтрагентами" category="Record">
+				<xr:TypeId>a8ccfe57-f045-4245-8496-39c26ccf93f2</xr:TypeId>
+				<xr:ValueId>bf0b7840-d392-43a7-bf9d-6da8bd2be8f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ВзаиморасчетыСКонтрагентами" category="Manager">
+				<xr:TypeId>d1b444bd-8854-4f70-bd68-c94dfbc4ba79</xr:TypeId>
+				<xr:ValueId>52bc0c17-078d-4f8c-aa69-00659807f523</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ВзаиморасчетыСКонтрагентами" category="Selection">
+				<xr:TypeId>c89283cf-727f-4cf7-afce-a5940642d67d</xr:TypeId>
+				<xr:ValueId>cfd0c537-b268-41e8-be79-3b456f295367</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ВзаиморасчетыСКонтрагентами" category="List">
+				<xr:TypeId>2036c561-4d43-40b5-9af8-ea0a976a1a49</xr:TypeId>
+				<xr:ValueId>5c656412-92ba-4785-891e-9701ed789165</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ВзаиморасчетыСКонтрагентами" category="RecordSet">
+				<xr:TypeId>b76e75af-52ce-4417-b5b3-e01acbde071a</xr:TypeId>
+				<xr:ValueId>4f1a9406-3f4a-434f-8376-4deb11c78b94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ВзаиморасчетыСКонтрагентами" category="RecordKey">
+				<xr:TypeId>f9c92559-8026-41ae-b4eb-9d65aff2366d</xr:TypeId>
+				<xr:ValueId>e540c4a3-292c-479f-b0e9-512a028a2cb1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВзаиморасчетыСКонтрагентами</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6feaf2e9-02f8-4f3a-9b97-03589b9bd5df</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="00473704-2e9e-40a2-8b10-e12f800b5699">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>af14e16a-21d8-4091-86d8-f4ac42e687ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="24d25771-1599-45c5-a86a-99c35a541014">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1cb97827-5bc8-4df3-846c-e25cf6de2315</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="a600508c-b844-484c-9443-9ae7692d0507">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2281fd3e-b064-4ab5-ada0-be0b564ffbf1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

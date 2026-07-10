@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Catalog uuid="ef2b83fc-481f-4596-ac90-14ea2a67ef1a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИА_ЦФО" category="Object">
+				<xr:TypeId>6a1fd701-cfc2-4554-8750-34c18bc12e31</xr:TypeId>
+				<xr:ValueId>5821ea04-1f68-49de-93f4-f47739ba4d2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИА_ЦФО" category="Ref">
+				<xr:TypeId>ef1aede8-bc63-461b-b5fa-4414b3054b6e</xr:TypeId>
+				<xr:ValueId>b4dd90be-5659-4d53-ab2f-5c3b53d14337</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИА_ЦФО" category="Selection">
+				<xr:TypeId>a28176e1-b53e-4aa1-8e1f-23d3bfb889db</xr:TypeId>
+				<xr:ValueId>f16a46bf-4a9c-4a49-b055-64dbb6223a20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИА_ЦФО" category="List">
+				<xr:TypeId>6d70cde4-cdcd-4330-8c62-c4b737b18874</xr:TypeId>
+				<xr:ValueId>c77e96e6-1f6f-4ab3-868f-32fc511defd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИА_ЦФО" category="Manager">
+				<xr:TypeId>afbf6b7f-d9d0-47c9-9838-997b012322d7</xr:TypeId>
+				<xr:ValueId>67dcc79a-7456-4a7a-81b9-758b70c4d343</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИА_ЦФО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f88d60e7-2b39-43c3-8874-13db5c8d0b38</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

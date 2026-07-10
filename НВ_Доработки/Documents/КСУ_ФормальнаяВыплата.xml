@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<Document uuid="24dd00cd-4b73-4f66-88e0-e808cb03b190">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.КСУ_ФормальнаяВыплата" category="Object">
+				<xr:TypeId>df3a0596-7bf2-4060-80b6-10e1a0fd93d4</xr:TypeId>
+				<xr:ValueId>5271834c-eb1b-4477-8340-bcb047fd3cac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.КСУ_ФормальнаяВыплата" category="Ref">
+				<xr:TypeId>2c909dd0-4d1a-457c-8fe1-28bd71bf46a9</xr:TypeId>
+				<xr:ValueId>18595ca9-187a-480a-8168-23874b94c729</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.КСУ_ФормальнаяВыплата" category="Selection">
+				<xr:TypeId>499c43b6-14b7-4bef-b074-d0abe0faf32d</xr:TypeId>
+				<xr:ValueId>93e81bd1-6fd2-4fb0-91cf-4cd9a0d3f2f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.КСУ_ФормальнаяВыплата" category="List">
+				<xr:TypeId>c8e918da-8893-47f2-ba06-b9ba019cef85</xr:TypeId>
+				<xr:ValueId>e4607dd3-2254-4c3f-947a-7cc391d7aa72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.КСУ_ФормальнаяВыплата" category="Manager">
+				<xr:TypeId>2d4433c6-cfed-406c-897b-2aaca7c12606</xr:TypeId>
+				<xr:ValueId>b9d6076e-9550-4fda-8f09-e7329eefa084</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КСУ_ФормальнаяВыплата</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5bcc6bb4-2b5e-402f-8518-a3f2fca7b68a</ExtendedConfigurationObject>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_ЗаказыНаПриобретение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_СредстваНаФондах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИА_СредстваВРезервеНаФондах</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИА_ИсторияСтатусовЗВС</xr:Item>
+			</RegisterRecords>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
