@@ -67,14 +67,14 @@
 			</DefaultRoles>
 			<Vendor>Никифоров Валерий</Vendor>
 			<Version>1.2.1</Version>
-			<Caption/>
-			<ShortCaption/>
+			<Caption />
+			<ShortCaption />
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
-			<Copyright/>
-			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<BriefInformation />
+			<DetailedInformation />
+			<Copyright />
+			<VendorInformationAddress />
+			<ConfigurationInformationAddress />
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
 		</Properties>
 		<ChildObjects>
@@ -187,6 +187,7 @@
 			<Catalog>Валюты</Catalog>
 			<Catalog>ВидыНачислений</Catalog>
 			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>ВидыПеремещений</Catalog>
 			<Catalog>ВидыПроизводственныхУслуг</Catalog>
 			<Catalog>ВидыСкидок</Catalog>
 			<Catalog>ВидыЦен</Catalog>
@@ -225,6 +226,7 @@
 			<Catalog>СтатусыСборкиЗаказов</Catalog>
 			<Catalog>СтатьиДвиженияДенежныхСредств</Catalog>
 			<Catalog>СтатьиДоходовИРасходов</Catalog>
+			<Catalog>ТипыПеремещений</Catalog>
 			<Catalog>ТранспортныеСредства</Catalog>
 			<Catalog>Фактура</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
@@ -251,6 +253,7 @@
 			<Catalog>ПриоритетыКонтрагентов</Catalog>
 			<Document>ЗаказПокупателя</Document>
 			<Document>ЗаказНаПроизводство</Document>
+			<Document>Монтаж</Document>
 			<Document>СписаниеСРасчетногоСчета</Document>
 			<Document>ИА_ЗаказНаПриобретение</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
@@ -266,6 +269,7 @@
 			<Document>СнятиеРезервов</Document>
 			<Document>ВыпускПродукции</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
+			<Enum>ВидыОперацийПеремещениеТоваров</Enum>
 			<Enum>НВД_ВидыОтгрузки</Enum>
 			<Enum>НВД_СтатусыДоставки</Enum>
 			<Enum>СтавкиНДС</Enum>
@@ -274,6 +278,7 @@
 			<Enum>ВидКонтрагента</Enum>
 			<Enum>ПолФизическогоЛица</Enum>
 			<Enum>ВариантыОтправкиЭлектронногоЧекаПокупателю</Enum>
+			<Enum>СтатусыПеремещений</Enum>
 			<Enum>ТипыСистемНалогообложенияККТ</Enum>
 			<Enum>РежимыВыгрузкиОбъектовОбмена</Enum>
 			<Enum>ВидыСпецификации</Enum>
