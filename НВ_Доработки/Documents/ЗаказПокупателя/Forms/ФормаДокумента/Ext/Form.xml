@@ -609,6 +609,7 @@
 									<ExtendedTooltip name="ТекущийСтатусРасширеннаяПодсказка" id="273"/>
 									<Events>
 										<Event name="ChoiceProcessing" callType="After">ТекущийСтатусОбработкаВыбора</Event>
+										<Event name="OnChange" callType="After">НВД_ТекущийСтатусПриИзмененииПосле</Event>
 									</Events>
 								</InputField>
 								<CheckBoxField name="КосячныйЗаказ" id="1662">
@@ -5370,6 +5371,16 @@
 				</dcsset:appearance>
 			</dcsset:item>
 		</ConditionalAppearance>
+		<Attribute name="НВД_РазрешеноМенятьСкладИКонтрагента" id="1000003">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НВД_БазоваяБлокировкаСкладовИКонтрагента" id="1000004">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ДобавитьДоставкуВТоварыДерево" id="1000000">
