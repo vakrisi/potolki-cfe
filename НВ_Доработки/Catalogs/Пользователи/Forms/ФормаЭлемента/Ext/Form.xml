@@ -3716,6 +3716,12 @@
 									<ContextMenu name="НВД_РазрешеноМенятьСкладИКонтрагентаВЗаказеВРаботеКонтекстноеМеню" id="1000001"/>
 									<ExtendedTooltip name="НВД_РазрешеноМенятьСкладИКонтрагентаВЗаказеВРаботеРасширеннаяПодсказка" id="1000002"/>
 								</CheckBoxField>
+								<CheckBoxField name="НВД_РазрешеноСоздаватьQRКодСБП" id="1000003">
+									<DataPath>Объект.НВД_РазрешеноСоздаватьQRКодСБП</DataPath>
+									<TitleLocation>Right</TitleLocation>
+									<ContextMenu name="НВД_РазрешеноСоздаватьQRКодСБПКонтекстноеМеню" id="1000004"/>
+									<ExtendedTooltip name="НВД_РазрешеноСоздаватьQRКодСБПРасширеннаяПодсказка" id="1000005"/>
+								</CheckBoxField>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаОграниченияЗаказНаПроизводство" id="1126">
